@@ -1,25 +1,20 @@
 ---
-title: Carte
+title: Carte interactive
 layout: default
 ---
 
-# Atlas dynamique
+# Carte interactive
 
 <style>
-    iframe {
-        position: absolute;
-        top: 0;
+    /* Assure-toi que la carte prend tout l’espace sous les onglets */
+    .map-container {
+        position: fixed;
+        top: 50px; /* Ajuste selon la hauteur de ton menu */
         left: 0;
         width: 100%;
-        height: 100vh; /* 100% de la hauteur de l'écran */
+        height: calc(100vh - 50px); /* Ajuste pour laisser de la place au menu */
         border: none;
-    }
-    body {
-        margin: 0;
-        overflow: hidden; /* Empêche le scroll inutile */
     }
 </style>
 
-# Carte interactive
-
-<iframe src="index_map.html"></iframe>
+<iframe class="map-container" src="index_map.html"></iframe>

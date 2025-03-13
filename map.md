@@ -12,7 +12,7 @@ layout: default
         top: 50px; /* Ajuste selon la hauteur de ton menu */
         left: 0;
         width: 100%;
-        height: calc(100vh - 50px); /* Ajuste pour laisser de la place au menu */
+        height: calc(100vh - 80px); /* Ajuste pour laisser de la place au menu */
         border: none;
     }
 </style>

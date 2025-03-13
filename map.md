@@ -9,7 +9,7 @@ layout: default
     /* Assure-toi que la carte prend tout l’espace sous les onglets */
     .map-container {
         position: fixed;
-        top: 50px; /* Ajuste selon la hauteur de ton menu */
+        top: 80px; /* Ajuste selon la hauteur de ton menu */
         left: 0;
         width: 100%;
         height: calc(100vh - 80px); /* Ajuste pour laisser de la place au menu */

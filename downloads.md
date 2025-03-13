@@ -5,4 +5,4 @@ layout: default
 
 # Télécharger le PDF
 
-[📥 Télécharger mon fichier PDF](fichier.pdf)
+[📥 Télécharger l'atlas en PDF](fichier.pdf)

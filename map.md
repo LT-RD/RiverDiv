@@ -6,9 +6,9 @@ layout: default
 <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
 
 <div class="tab-container">
-    <a href="/index/" class="tab-button">Accueil</a>
-    <a href="/map/" class="tab-button">Carte Interactive</a>
-    <a href="/downloads/" class="tab-button">Téléchargement</a>
+    <a href="index" class="tab-button">Accueil</a>
+    <a href="map" class="tab-button">Carte Interactive</a>
+    <a href="downloads" class="tab-button">Téléchargement</a>
 </div>
 
 <script>
@@ -31,7 +31,7 @@ layout: default
     /* Assure-toi que la carte prend tout l’espace sous les onglets */
     .map-container {
         position: fixed;
-        top: 50px; /* Ajuste selon la hauteur de ton menu */
+        top: 40px; /* Ajuste selon la hauteur de ton menu */
         left: 0;
         width: 100%;
         height: calc(100vh - 50px); /* Ajuste pour laisser de la place au menu */

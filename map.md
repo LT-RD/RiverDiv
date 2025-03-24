@@ -28,17 +28,26 @@ layout: default
 # Carte interactive
 
 <style>
+    /* Conteneur de la carte centré dans la page */
+    .map-wrapper {
+        display: flex;
+        justify-content: center; /* Centre horizontalement */
+        align-items: center; /* Centre verticalement */
+        height: 100vh; /* Prend toute la hauteur de la fenêtre */
+    }
+
+    /* Taille et bordure de la carte */
     .map-container {
-        position: relative; /* Permet d'intégrer la carte dans la mise en page */
-        width: 1000px; /* Largeur fixe */
-        height: 800px; /* Hauteur fixe */
-        margin: 20px auto; /* Centre la carte horizontalement */
+        width: 1500px; /* Largeur souhaitée */
+        height: 800px; /* Hauteur souhaitée */
         border: 2px solid #ccc; /* Bordure pour encadrer la carte */
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Ombre pour effet visuel */
         border-radius: 8px; /* Coins arrondis */
         background: #f9f9f9; /* Fond clair */
         overflow: hidden; /* Empêche les débordements */
     }
+
+    /* Style pour l'iframe */
     .map-container iframe {
         width: 100%;
         height: 100%;
@@ -46,6 +55,10 @@ layout: default
     }
 </style>
 
-<div class="map-container">
-    <iframe src="index_map.html"></iframe>
+<!-- Conteneur principal pour centrer la carte -->
+<div class="map-wrapper">
+    <div class="map-container">
+        <iframe src="index_map.html"></iframe>
+    </div>
 </div>
+

@@ -4,10 +4,24 @@ layout: default
 ---
 
 <div class="tab-container">
-    <a href="index.html" class="tab-button">Accueil</a>
-    <a href="map.md" class="tab-button">Carte interactive</a>
-    <a href="downloads.md" class="tab-button">Téléchargement</a>
+    <a href="/index.html" class="tab-button">Accueil</a>
+    <a href="/map.html" class="tab-button">Carte Interactive</a>
+    <a href="/downloads.html" class="tab-button">Téléchargement</a>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      const tabs = document.querySelectorAll(".tab-button");
+      const currentPath = window.location.pathname;
+
+      tabs.forEach(tab => {
+          if (tab.getAttribute("href") === currentPath) {
+              tab.classList.add("active");
+          }
+      });
+  });
+</script>
+
 
 <p align="left">
     <img src="images/RD.png" alt="Logo 1" width="180">

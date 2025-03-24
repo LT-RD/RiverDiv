@@ -6,9 +6,9 @@ layout: default
 <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
 
 <div class="tab-container">
-    <a href="/index/" class="tab-button">Accueil</a>
-    <a href="/map/" class="tab-button">Carte Interactive</a>
-    <a href="/downloads/" class="tab-button">Téléchargement</a>
+    <a href="RiverDiv/index/" class="tab-button">Accueil</a>
+    <a href="RiverDiv/map/" class="tab-button">Carte Interactive</a>
+    <a href="RiverDiv/downloads/" class="tab-button">Téléchargement</a>
 </div>
 
 <script>

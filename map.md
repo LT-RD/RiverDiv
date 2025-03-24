@@ -28,15 +28,24 @@ layout: default
 # Carte interactive
 
 <style>
-    /* Assure-toi que la carte prend tout l’espace sous les onglets */
     .map-container {
-        position: fixed;
-        top: 40px; /* Ajuste selon la hauteur de ton menu */
-        left: 0;
+        position: relative; /* Permet d'intégrer la carte dans la mise en page */
+        width: 600px; /* Largeur fixe */
+        height: 400px; /* Hauteur fixe */
+        margin: 20px auto; /* Centre la carte horizontalement */
+        border: 2px solid #ccc; /* Bordure pour encadrer la carte */
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Ombre pour effet visuel */
+        border-radius: 8px; /* Coins arrondis */
+        background: #f9f9f9; /* Fond clair */
+        overflow: hidden; /* Empêche les débordements */
+    }
+    .map-container iframe {
         width: 100%;
-        height: calc(100vh - 50px); /* Ajuste pour laisser de la place au menu */
+        height: 100%;
         border: none;
     }
 </style>
 
-<iframe class="map-container" src="index_map.html"></iframe>
+<div class="map-container">
+    <iframe src="index_map.html"></iframe>
+</div>

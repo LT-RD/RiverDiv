@@ -3,6 +3,8 @@ title: Carte interactive
 layout: default
 ---
 
+<link rel="stylesheet" href="/css/style.css">
+
 <div class="tab-container">
     <a href="/index.html" class="tab-button">Accueil</a>
     <a href="/map.html" class="tab-button">Carte Interactive</a>

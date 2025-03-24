@@ -3,6 +3,12 @@ title: Accueil
 layout: default
 ---
 
+<div class="tab-container">
+    <a href="index.html" class="tab-button">Accueil</a>
+    <a href="map.md" class="tab-button">Carte interactive</a>
+    <a href="downloads.md" class="tab-button">Téléchargement</a>
+</div>
+
 <p align="left">
     <img src="images/RD.png" alt="Logo 1" width="180">
 </p>

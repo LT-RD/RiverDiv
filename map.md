@@ -53,6 +53,22 @@ layout: default
         height: 100%;
         border: none;
     }
+
+    /* Media Query pour les petits écrans (téléphones, tablettes) */
+    @media screen and (max-width: 768px) {
+        .map-container {
+            width: 100%; /* La carte prend 100% de la largeur disponible sur petit écran */
+            height: 400px; /* La hauteur de la carte est réduite pour un meilleur affichage */
+        }
+    }
+
+    /* Media Query pour les très petits écrans (smartphones en portrait) */
+    @media screen and (max-width: 480px) {
+        .map-container {
+            width: 100%; /* La carte prend toute la largeur sur un écran très petit */
+            height: 300px; /* Réduit encore la hauteur pour les écrans très petits */
+        }
+    }
 </style>
 
 <!-- Conteneur principal pour centrer la carte -->

@@ -30,8 +30,8 @@ layout: default
 <style>
     .map-container {
         position: relative; /* Permet d'intégrer la carte dans la mise en page */
-        width: 600px; /* Largeur fixe */
-        height: 400px; /* Hauteur fixe */
+        width: 1000px; /* Largeur fixe */
+        height: 800px; /* Hauteur fixe */
         margin: 20px auto; /* Centre la carte horizontalement */
         border: 2px solid #ccc; /* Bordure pour encadrer la carte */
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Ombre pour effet visuel */

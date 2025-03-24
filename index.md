@@ -3,7 +3,7 @@ title: Accueil
 layout: default
 ---
 
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
 
 <div class="tab-container">
     <a href="/index.html" class="tab-button">Accueil</a>

@@ -7,8 +7,10 @@ layout: default
 
 <div class="tab-container">
     <a href="index" class="tab-button">Accueil</a>
+    <a href="macroinv" class="tab-button">Macro invertébrés</a>
     <a href="map" class="tab-button">Carte Interactive</a>
     <a href="downloads" class="tab-button">Téléchargement</a>
+    <a href="contacts" class="tab-button">Contacts</a>
 </div>
 
 <script>

@@ -50,31 +50,13 @@ Sur ce site, vous pouvez accéder à la version interactive de l'atlas ainsi qu'
 
 ## Foire aux questions
 
-### Test 1
-
-<section id="faq">
-    <h2>Foire Aux Questions</h2>
-    <details>
-        <summary>Quelle est la finalité de ce site ?</summary>
-        <p>Ce site permet de présenter une carte interactive et de télécharger des ressources.</p>
-    </details>
-    <details>
-        <summary>Comment télécharger le PDF ?</summary>
-        <p>Rendez-vous dans l’onglet "Téléchargement" pour accéder au fichier.</p>
-    </details>
-</section>
-
-### Test 2
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <section id="faq">
     <h2>Foire Aux Questions</h2>
     <div class="faq-item">
-        <div class="faq-question">Quelle est la finalité de ce site ?</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Quelle est la finalité de ce site ?</div>
         <div class="faq-answer">Ce site permet de présenter une carte interactive et de télécharger des ressources.</div>
-    </div>
-    <div class="faq-item">
-        <div class="faq-question">Comment télécharger le PDF ?</div>
-        <div class="faq-answer">Rendez-vous dans l’onglet "Téléchargement" pour accéder au fichier.</div>
     </div>
 </section>
 
@@ -86,10 +68,34 @@ Sur ce site, vous pouvez accéder à la version interactive de l'atlas ainsi qu'
     .faq-question {
         font-weight: bold;
         cursor: pointer;
+        padding: 10px;
+        background-color: #f4f4f4;
+        border: 1px solid #ccc;
+        margin: 5px 0;
+        border-radius: 5px;
+        transition: background-color 0.3s;
     }
     .faq-answer {
         display: none;
         margin-top: 5px;
+    }
+
+    .faq-question:hover {
+        background-color: #e2e2e2;
+    }
+    .faq-question:active {
+        background-color: #d0d0d0;
+    }
+
+    .faq-answer {
+        display: none;
+        margin-top: 5px;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .faq-answer.open {
+        display: block;
+        opacity: 1;
     }
 </style>
 
@@ -97,7 +103,10 @@ Sur ce site, vous pouvez accéder à la version interactive de l'atlas ainsi qu'
     document.querySelectorAll('.faq-question').forEach(item => {
         item.addEventListener('click', () => {
             let answer = item.nextElementSibling;
-            answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
+            let icon = item.querySelector('i');
+            answer.classList.toggle('open');
+            icon.classList.toggle('fa-chevron-down');
+            icon.classList.toggle('fa-chevron-up');
         });
     });
 </script>

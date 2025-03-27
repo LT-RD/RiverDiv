@@ -30,7 +30,9 @@ layout: default
     <img src="images/RD.png" alt="Logo 1" width="180">
 </p>
 
-# Bienvenue sur le site de l'atlas macro invertébrés du projet RiverDiv !
+# Bienvenue sur l'Atlas RiverDiv !
+
+## Le projet
 
 <div style="text-align: justify;">
 Dans le cadre du projet INTERREG RIVERDIV, des travaux comprenant des campagnes de terrain visent à étudier les zones refuges et les macro-invertébrés. Suite à un travail d'identification, l'atlas suivant a été produit pour permettre de visualiser les différents ordres présents et leurs proportions.
@@ -40,6 +42,10 @@ Sur ce site, vous pouvez accéder à la version interactive de l'atlas ainsi qu'
 - [Carte interactive (atlas dynamique)](map)
 
 - [Téléchargement de l'atlas en PDF](downloads)
+
+Une présentation des différents taxons observés sur la Wieslauter et de leurs caractéristiques est également disponible :
+
+- [Galerie des macro-invertébrés](macroinv)
 
 ## Liens vers le projet
 
@@ -54,27 +60,27 @@ Sur ce site, vous pouvez accéder à la version interactive de l'atlas ainsi qu'
 <section id="faq">
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Pourquoi un tel site ?</div>
-        <div class="faq-answer">Ce site permet de présenter plusieurs résultats concernant les macro invertébrés : carte interactive, atlas PDF, galerie présentant les différents taxons.</div>
+        <div class="faq-answer" style="text-align: justify;">Ce site permet de présenter plusieurs résultats concernant les macro-invertébrés : carte interactive, atlas PDF, galerie présentant les différents taxons.</div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Pourquoi les macro invertébrés ?</div>
-        <div class="faq-answer">Les macro invertébrés, du fait de leur caractéristiques spécifiques, sont souvent étudiés pour évaluer l'état d'un milieu aquatique. Certains taxons, s'ils sont présents, permettent par exemple d'établir le niveau de pollution du milieu du fait de leur polluo-sensibilité. Vous pourrez retrouver des informations sur les différents taxons observés dans l'onglet correspondant ainsi que dans l'atlas PDF.</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Pourquoi les macro-invertébrés ?</div>
+        <div class="faq-answer" style="text-align: justify;">Les macro invertébrés, du fait de leur caractéristiques spécifiques, sont souvent étudiés pour évaluer l'état d'un milieu aquatique. Certains taxons, s'ils sont présents, permettent par exemple d'établir le niveau de pollution du milieu du fait de leur polluo-sensibilité. Vous pourrez retrouver des informations sur les différents taxons observés dans l'onglet correspondant ainsi que dans l'atlas PDF.</div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Que sont les zones refuge ?</div>
-        <div class="faq-answer">Les zones refuge sont des espaces ausin desquels les individus vont pouvoir se protéger d'un danger (événement extrême, prédateur, etc.), se reposer, se nourri ou encore se reproduire.</div>
+        <div class="faq-answer" style="text-align: justify;">Les zones refuge sont des espaces ausin desquels les individus vont pouvoir se protéger d'un danger (événement extrême, prédateur, etc.), se reposer, se nourri ou encore se reproduire.</div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Qui est derrière ce site ?</div>
-        <div class="faq-answer">Au global, le projet RiverDiv s'articule autour de plusieurs axes sur lesquels sont associés différentes équipes. Notre équipe, que nous vous invitons à découvrir dans l'onglet contacts, étudie la notion de zones refuge et leur caractérisation, le tout appliqué aux macro invertébrés aquatiques. Cette équipe est constitué de membres de l'Ecole Nationale du Génie de l'Eau et de l'Environnement de Strasbourg (ENGEES) et du Laboratoire Image, Ville, Environnement (LIVE).</div>
+        <div class="faq-answer" style="text-align: justify;">Au global, le projet RiverDiv s'articule autour de plusieurs axes sur lesquels sont associés différentes équipes. Notre équipe, que nous vous invitons à découvrir dans l'onglet contacts, étudie la notion de zones refuge et leur caractérisation, le tout appliqué aux macro-invertébrés aquatiques. Cette équipe est constitué de membres de l'Ecole Nationale du Génie de l'Eau et de l'Environnement de Strasbourg (ENGEES) et du Laboratoire Image, Ville, Environnement (LIVE).</div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Comment le site a-t-il été réalisé ?</div>
-        <div class="faq-answer">Le site a été réalisé à l'aide des langages HTML, JavaScript et CSS. Le tout a été mis en ligne grâce à GitHub et GitHub Pages. La carte interactive est issue d'un travail sur le logiciel QGIS (à l'aide du plugin QGIS2WEB) et le rendu dynamique est permis par Leaflet.</div>
+        <div class="faq-answer" style="text-align: justify;">Le site a été réalisé à l'aide des langages HTML, JavaScript et CSS. Le tout a été mis en ligne grâce à GitHub et GitHub Pages. La carte interactive est issue d'un travail sur le logiciel QGIS (à l'aide du plugin QGIS2WEB) et le rendu dynamique est permis par Leaflet.</div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Les données brutes sont-elles accessibles ?</div>
-        <div class="faq-answer">Les données brutes d'observations des différents taxons de macro invertébrés aquatiques présents sur la Wieslauter ne sont pas disponibles directement sur le site ou le dépôt GitHub. Si de telles données vous intéressent, veuillez prendre contacts avec l'un des membres de l'équipe.</div>
+        <div class="faq-answer" style="text-align: justify;">Les données brutes d'observations des différents taxons de macro-invertébrés aquatiques présents sur la Wieslauter ne sont pas disponibles directement sur le site ou le dépôt GitHub. Si de telles données vous intéressent, veuillez prendre contacts avec l'un des membres de l'équipe.</div>
     </div>
 </section>
 

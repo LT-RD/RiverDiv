@@ -41,7 +41,7 @@ Cette partie est actuellement en construction !
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Acantocéphales</div>
         <div class="faq-answer">
             <p style="text-align: justify;">En construction...</p>
-            <img src="images/ACH.jpg" alt="Logo 1" width="250" class="logo">
+            <img src="images/ACAN.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">

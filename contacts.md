@@ -32,17 +32,25 @@ layout: default
 Pour toute question ou besoin éventuel, n'hésitez pas à prendre contact avec nous !
 
 ## Loïc Trutin
+*Ingénieur d'études ENGEES - LIVE*
+
 - [Mail](mailto:loic.trutin@engees.unistra.fr)
 - [LinkedIn](https://www.linkedin.com/in/lo%C3%AFc-trutin-681299220/)
 
 ## Matthieu Lucchini
+*Doctorant ENGEES - LIVE*
+
 - [Mail](mailto:mlucchin1@engees.unistra.fr)
 - LinkedIn
 
 ## Cybill Staentzel
+*Enseignante-chercheure ENGEES - LIVE*
+
 - [Mail](mailto:cybill.staentzel@engees.unistra.fr)
 - [LinkedIn](https://www.linkedin.com/in/cybill-staentzel-bb136796/)
 
 ## Jean-Nicolas Beisel
+*Professeur ENGEES - LIVE*
+
 - [Mail](mailto:jean-nicolas.beisel@engees.unistra.fr)
 - [LinkedIn](https://www.linkedin.com/in/jean-nicolas-beisel-48a62b302/)

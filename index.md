@@ -26,7 +26,6 @@ layout: default
   });
 </script>
 
-
 <p align="left">
     <img src="images/RD.png" alt="Logo 1" width="180">
 </p>
@@ -53,51 +52,31 @@ Sur ce site, vous pouvez accéder à la version interactive de l'atlas ainsi qu'
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <section id="faq">
-    <h2>Foire Aux Questions</h2>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Quelle est la finalité de ce site ?</div>
-        <div class="faq-answer">Ce site permet de présenter une carte interactive et de télécharger des ressources.</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Pourquoi un tel site ?</div>
+        <div class="faq-answer">Ce site permet de présenter plusieurs résultats concernant les macro invertébrés : carte interactive, atlas PDF, galerie présentant les différents taxons.</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Pourquoi les macro invertébrés ?</div>
+        <div class="faq-answer">Les macro invertébrés, du fait de leur caractéristiques spécifiques, sont souvent étudiés pour évaluer l'état d'un milieu aquatique. Certains taxons, s'ils sont présents, permettent par exemple d'établir le niveau de pollution du milieu du fait de leur polluo-sensibilité. Vous pourrez retrouver des informations sur les différents taxons observés dans l'onglet correspondant ainsi que dans l'atlas PDF.</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Que sont les zones refuge ?</div>
+        <div class="faq-answer">Les zones refuge sont des espaces ausin desquels les individus vont pouvoir se protéger d'un danger (événement extrême, prédateur, etc.), se reposer, se nourri ou encore se reproduire.</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Qui est derrière ce site ?</div>
+        <div class="faq-answer">Au global, le projet RiverDiv s'articule autour de plusieurs axes sur lesquels sont associés différentes équipes. Notre équipe, que nous vous invitons à découvrir dans l'onglet contacts, étudie la notion de zones refuge et leur caractérisation, le tout appliqué aux macro invertébrés aquatiques. Cette équipe est constitué de membres de l'Ecole Nationale du Génie de l'Eau et de l'Environnement de Strasbourg (ENGEES) et du Laboratoire Image, Ville, Environnement (LIVE).</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Comment le site a-t-il été réalisé ?</div>
+        <div class="faq-answer">Le site a été réalisé à l'aide des langages HTML, JavaScript et CSS. Le tout a été mis en ligne grâce à GitHub et GitHub Pages. La carte interactive est issue d'un travail sur le logiciel QGIS (à l'aide du plugin QGIS2WEB) et le rendu dynamique est permis par Leaflet.</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Les données brutes sont-elles accessibles ?</div>
+        <div class="faq-answer">Les données brutes d'observations des différents taxons de macro invertébrés aquatiques présents sur la Wieslauter ne sont pas disponibles directement sur le site ou le dépôt GitHub. Si de telles données vous intéressent, veuillez prendre contacts avec l'un des membres de l'équipe.</div>
     </div>
 </section>
-
-<style>
-    .faq-item {
-        border-bottom: 1px solid #ddd;
-        padding: 10px;
-    }
-    .faq-question {
-        font-weight: bold;
-        cursor: pointer;
-        padding: 10px;
-        background-color: #f4f4f4;
-        border: 1px solid #ccc;
-        margin: 5px 0;
-        border-radius: 5px;
-        transition: background-color 0.3s;
-    }
-    .faq-answer {
-        display: none;
-        margin-top: 5px;
-    }
-
-    .faq-question:hover {
-        background-color: #e2e2e2;
-    }
-    .faq-question:active {
-        background-color: #d0d0d0;
-    }
-
-    .faq-answer {
-        display: none;
-        margin-top: 5px;
-        opacity: 0;
-        transition: opacity 0.3s ease-in-out;
-    }
-    .faq-answer.open {
-        display: block;
-        opacity: 1;
-    }
-</style>
 
 <script>
     document.querySelectorAll('.faq-question').forEach(item => {

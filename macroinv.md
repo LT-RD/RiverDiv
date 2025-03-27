@@ -39,8 +39,10 @@ Cette partie est actuellement en construction !
 <section id="faq">
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Acantocéphales</div>
-        <div class="faq-answer" style="text-align: justify;">En construction... 
-        <img src="images/ACH.jpg" alt="Logo 1" width="180"></div>
+        <div class="faq-answer">
+            <p style="text-align: justify;">En construction...</p>
+            <img src="images/ACH.jpg" alt="Logo 1" width="180" class="logo">
+        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Achètes</div>

@@ -41,76 +41,131 @@ Cette partie est actuellement en construction !
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Acantocéphales</div>
         <div class="faq-answer">
             <p style="text-align: justify;">En construction...</p>
-            <img src="images/ACH.jpg" alt="Logo 1" width="180" class="logo">
+            <img src="images/ACH.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Achètes</div>
-        <div class="faq-answer" style="text-align: justify;">En construction...</div>
+        <div class="faq-answer">
+            <p style="text-align: justify;">En construction...</p>
+            <img src="images/ACH.jpg" alt="Logo 1" width="250" class="logo">
+        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Amphipodes</div>
-        <div class="faq-answer" style="text-align: justify;">En construction...</div>
+        <div class="faq-answer">
+            <p style="text-align: justify;">En construction...</p>
+            <img src="images/Gammarus.jpg" alt="Logo 1" width="250" class="logo">
+        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Annélidés</div>
-        <div class="faq-answer" style="text-align: justify;">En construction...</div>
+        <div class="faq-answer">
+            <p style="text-align: justify;">En construction...</p>
+            <img src="images/ANNE.jpg" alt="Logo 1" width="250" class="logo">
+        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Bivalves</div>
-        <div class="faq-answer" style="text-align: justify;">En construction...</div>
+        <div class="faq-answer">
+            <p style="text-align: justify;">En construction...</p>
+            <img src="images/BIVA.jpg" alt="Logo 1" width="250" class="logo">
+        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Coléoptères</div>
-        <div class="faq-answer" style="text-align: justify;">En construction...</div>
+        <div class="faq-answer">
+            <p style="text-align: justify;">En construction...</p>
+            <img src="images/COLEO.jpg" alt="Logo 1" width="250" class="logo">
+            <img src="images/COLEO2.jpg" alt="Logo 1" width="250" class="logo">
+        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Décapodes</div>
-        <div class="faq-answer" style="text-align: justify;">En construction...</div>
+        <div class="faq-answer">
+            <p style="text-align: justify;">En construction...</p>
+            <img src="images/DECA.jpg" alt="Logo 1" width="250" class="logo">
+        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Diptères</div>
-        <div class="faq-answer" style="text-align: justify;">En construction...</div>
+        <div class="faq-answer">
+            <p style="text-align: justify;">En construction...</p>
+            <img src="images/DIPT.jpg" alt="Logo 1" width="250" class="logo">
+            <img src="images/DIPT2.jpg" alt="Logo 1" width="250" class="logo">
+        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Ephéméroptères</div>
-        <div class="faq-answer" style="text-align: justify;">En construction...</div>
+        <div class="faq-answer">
+            <p style="text-align: justify;">En construction...</p>
+            <img src="images/EPHEME.jpg" alt="Logo 1" width="250" class="logo">
+        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Gastéropodes</div>
-        <div class="faq-answer" style="text-align: justify;">En construction...</div>
+        <div class="faq-answer">
+            <p style="text-align: justify;">En construction...</p>
+            <img src="images/GAST.jpg" alt="Logo 1" width="250" class="logo">
+        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Hétéroptères</div>
-        <div class="faq-answer" style="text-align: justify;">En construction...</div>
+        <div class="faq-answer">
+            <p style="text-align: justify;">En construction...</p>
+            <img src="images/HETERO.jpg" alt="Logo 1" width="250" class="logo">
+        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Hydracariens</div>
-        <div class="faq-answer" style="text-align: justify;">En construction...</div>
+        <div class="faq-answer">
+            <p style="text-align: justify;">En construction...</p>
+            <img src="images/HYDRA.jpg" alt="Logo 1" width="250" class="logo">
+        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Isopodes</div>
-        <div class="faq-answer" style="text-align: justify;">En construction...</div>
+        <div class="faq-answer">
+            <p style="text-align: justify;">En construction...</p>
+            <img src="images/ISO.jpg" alt="Logo 1" width="250" class="logo">
+        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Némathelminthes</div>
-        <div class="faq-answer" style="text-align: justify;">En construction...</div>
+        <div class="faq-answer">
+            <p style="text-align: justify;">En construction...</p>
+            <img src="images/NEMA.jpg" alt="Logo 1" width="250" class="logo">
+            <img src="images/NEMATO.jpg" alt="Logo 1" width="250" class="logo">
+        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Odonates</div>
-        <div class="faq-answer" style="text-align: justify;">En construction...</div>
+        <div class="faq-answer">
+            <p style="text-align: justify;">En construction...</p>
+            <img src="images/ODO.jpg" alt="Logo 1" width="250" class="logo">
+        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Oligochètes</div>
-        <div class="faq-answer" style="text-align: justify;">En construction...</div>
+        <div class="faq-answer">
+            <p style="text-align: justify;">En construction...</p>
+            <img src="images/OLIGO.jpg" alt="Logo 1" width="250" class="logo">
+        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Plécoptères</div>
-        <div class="faq-answer" style="text-align: justify;">En construction...</div>
+        <div class="faq-answer">
+            <p style="text-align: justify;">En construction...</p>
+            <img src="images/PLECO.jpg" alt="Logo 1" width="250" class="logo">
+        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-down"></i> Trichoptères</div>
-        <div class="faq-answer" style="text-align: justify;">En construction...</div>
+        <div class="faq-answer">
+            <p style="text-align: justify;">En construction...</p>
+            <img src="images/TRICHOtinodes.jpg" alt="Logo 1" width="250" class="logo">
+            <img src="images/hydropsyche.jpg" alt="Logo 1" width="250" class="logo">
+        </div>
     </div>  
 </section>
 

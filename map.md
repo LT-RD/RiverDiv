@@ -4,13 +4,14 @@ layout: default
 ---
 
 <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <div class="tab-container">
-    <a href="index" class="tab-button">Accueil</a>
-    <a href="macroinv" class="tab-button">Macro invertébrés</a>
-    <a href="map" class="tab-button">Carte Interactive</a>
-    <a href="downloads" class="tab-button">Téléchargement</a>
-    <a href="contacts" class="tab-button">Contacts</a>
+    <a href="index" class="tab-button"><i class="fa-solid fa-house"></i> Accueil</a>
+    <a href="macroinv" class="tab-button"><i class="fa-solid fa-bug"></i> Macro invertébrés</a>
+    <a href="map" class="tab-button"><i class="fa-solid fa-map"></i> Carte Interactive</a>
+    <a href="downloads" class="tab-button"><i class="fa-solid fa-floppy-disk"></i> Téléchargement</a>
+    <a href="contacts" class="tab-button"><i class="fa-solid fa-address-book"></i> Contacts</a>
 </div>
 
 <script>
@@ -25,7 +26,6 @@ layout: default
       });
   });
 </script>
-
 
 # Carte interactive
 

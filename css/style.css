@@ -49,10 +49,13 @@
 }
 
  .faq-question:hover {
-    background-color: #e2e2e2;
+    background-color: #18986f;
+    color: white;
 }
  .faq-question:active {
-    background-color: #d0d0d0;
+    background-color: #18986f;
+    color: white;
+    border-bottom: 2px solid white;
 }
 
  .faq-answer {

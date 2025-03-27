@@ -33,7 +33,7 @@ Pour toute question ou besoin éventuel, n'hésitez pas à prendre contact avec 
 
 ## Loïc Trutin
 - [Mail](mailto:loic.trutin@engees.unistra.fr)
-- [LinkedIn](www.linkedin.com/in/loïc-trutin-681299220)
+- [LinkedIn](https://www.linkedin.com/in/lo%C3%AFc-trutin-681299220/)
 
 ## Matthieu Lucchini
 - [Mail](mailto:mlucchin1@engees.unistra.fr)

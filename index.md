@@ -14,7 +14,7 @@ layout: default
     <div class="language-options">
         <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
         <button class="lang-option" data-lang="en">🇬🇧 English</button>
-        <button class="lang-option" data-lang="es">🇪🇸 Español</button>
+        <button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
     </div>
 </div>
 

@@ -51,7 +51,7 @@ lang: fr
     <img src="images/RD.png" alt="Logo 1" width="180">
 </p>
 
-# <p class="translatable" data-key="welcome">{{ site.data.translations[page.lang].welcome }}</p>
+# <p class="translatable" data-key="welcome">{{ site.data.translations[page.lang].welcome | default: "Texte non trouvé" }}</p>
 
 ## <p class="translatable" data-key="project">{{ site.data.translations[page.lang].project }}</p>
 

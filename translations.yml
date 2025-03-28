@@ -1,0 +1,46 @@
+fr:
+  welcome: "Bienvenue sur l’Atlas RiverDiv !"
+  project: "Le projet"
+  text1: "Dans le cadre du projet INTERREG RIVERDIV, des travaux comprenant des campagnes de terrain visent à étudier les zones refuges et les macro-invertébrés. 
+  Suite à un travail d'identification, l'atlas suivant a été produit pour permettre de visualiser les différents ordres présents et leurs proportions. Sur ce site, vous pouvez accéder à la version interactive de l’atlas ainsi qu’à sa version PDF.
+  Une présentation des différents taxons observés sur la Wieslauter et de leurs caractéristiques est également disponible."
+  links: "Liens vers le projet"
+  link1: "Projet RiverDiv - Site de la RPTU"
+  link2: "Projet RiverDiv - Site du LIVE"
+  faq: "Foire aux questions"
+  q1: "Pourquoi un tel site ?"
+  r1: "Ce site permet de présenter plusieurs résultats concernant les macro-invertébrés : carte interactive, atlas PDF, galerie présentant les différents taxons."
+  q2: "Pourquoi les macro-invertébrés ?"
+  r2: "Les macro invertébrés, du fait de leur caractéristiques spécifiques, sont souvent étudiés pour évaluer l'état d'un milieu aquatique. 
+  Certains taxons, s'ils sont présents, permettent par exemple d'établir le niveau de pollution du milieu du fait de leur polluo-sensibilité. 
+  Vous pourrez retrouver des informations sur les différents taxons observés dans l'onglet correspondant ainsi que dans l'atlas PDF."
+  q3: "Que sont les zones refuge ?"
+  r3: "Les zones refuge sont des espaces ausin desquels les individus vont pouvoir se protéger d'un danger (événement extrême, prédateur, etc.), se reposer, se nourri ou encore se reproduire."
+  q4: "Qui est derrière ce site ?"
+  r4: "Au global, le projet RiverDiv s'articule autour de plusieurs axes sur lesquels sont associés différentes équipes. 
+  Notre équipe, que nous vous invitons à découvrir dans l'onglet contacts, étudie la notion de zones refuge et leur caractérisation, le tout appliqué aux macro-invertébrés aquatiques. 
+  Cette équipe est constitué de membres de l'Ecole Nationale du Génie de l'Eau et de l'Environnement de Strasbourg (ENGEES) et du Laboratoire Image, Ville, Environnement (LIVE)."
+  q5: "Comment le site a-t-il été réalisé ?"
+  r5: "Le site a été réalisé à l'aide des langages HTML, JavaScript et CSS. Le tout a été mis en ligne grâce à GitHub et GitHub Pages. 
+  La carte interactive est issue d'un travail sur le logiciel QGIS (à l'aide du plugin QGIS2WEB) et le rendu dynamique est permis par Leaflet."
+  q6: "Les données brutes sont-elles accessibles ?"
+  r6: "Les données brutes d'observations des différents taxons de macro-invertébrés aquatiques présents sur la Wieslauter ne sont pas disponibles directement sur le site ou le dépôt GitHub. 
+  Si de telles données vous intéressent, veuillez prendre contacts avec l'un des membres de l'équipe."
+  partners: "Partenaires du projet"
+  
+en:
+  welcome: “Welcome to the RiverDiv Atlas!"
+  project: “The project"
+  text1: “As part of the INTERREG RIVERDIV project, field campaigns are being carried out to study refuge areas and macro-invertebrates. 
+  Following identification work, the following atlas has been produced to help visualize the different orders present and their proportions. On this site, you can access the interactive version of the atlas as well as the PDF version.
+  A presentation of the different taxa observed on the Wieslauter and their characteristics is also available.”
+  links: “Links to the project"
+  link1: “RiverDiv Project - RPTU website”
+  link2: “RiverDiv Project - LIVE website”
+
+Translated with DeepL.com (free version)
+
+de:
+  welcome: "Willkommen auf meiner Website!"
+  about: "Diese Website enthält verschiedene Informationen..."
+  contact: "Kontaktieren Sie uns bei Fragen."

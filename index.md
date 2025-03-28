@@ -17,6 +17,8 @@ layout: default
     </div>
 </div>
 
+<script src="{{ '/script.js' | relative_url }}"></script>
+
 <!-- Bouton pour ouvrir/fermer le menu -->
 <button id="menu-toggle" class="menu-button">
     <i class="fa fa-bars"></i> Menu

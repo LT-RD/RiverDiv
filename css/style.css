@@ -1,45 +1,59 @@
-.tab-container {
+/* Style du bouton menu */
+.menu-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
     display: flex;
-    justify-content: center;
-    padding: 10px;
-    background-color: #f8f9fa;
-    border-bottom: 2px solid #ddd;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.3s ease;
 }
 
+.menu-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style de l'icône dans le bouton */
+.menu-button i {
+    transition: transform 0.3s ease;
+}
+
+/* Style du menu caché par défaut */
+.tab-container {
+    display: none;  /* Caché par défaut */
+    flex-direction: column;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: max-height 0.5s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* Style des boutons du menu */
 .tab-button {
-    padding: 12px 20px;
-    margin: 0 5px;
-    background-color: #e9ecef;
-    color: #333;
     text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px 5px 0 0;
-    transition: background-color 0.3s, color 0.3s;
-    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    color: #333;
+    transition: background 0.3s ease;
 }
 
 .tab-button:hover {
-    background-color: #18986f;
-    color: white;
+    background-color: #f0f0f0;
 }
 
-.tab-button.active {
-    background-color: #18986f;
-    color: white;
-    border-bottom: 2px solid white;
+/* Animation d'ouverture du menu */
+.tab-container.show {
+    display: flex;
 }
 
-@media (max-width: 768px) {
-    .tab-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .tab-button {
-        width: 100%;
-        text-align: center;
-        padding: 15px;
-    }
+/* Rotation de l'icône au clic */
+.menu-button.active i {
+    transform: rotate(90deg);
 }
 
 .faq-item {

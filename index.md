@@ -1,6 +1,7 @@
 ---
 title: Accueil
 layout: default
+lang: fr
 ---
 
 <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">

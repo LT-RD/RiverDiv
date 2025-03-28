@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 };
 
-        document.querySelector(".menu-button").innerHTML = `<i class="fa-solid fa-bars"></i> ${translations[lang]["menu"]}`;
+        document.querySelector(".menu-button").innerHTML = `<i class="fa fa-bars"></i> ${translations[lang]["menu"]}`;
         document.querySelector("#language-button").innerHTML = `🌍 ${translations[lang]["language"]} <i class="fa fa-chevron-down"></i>`;
         document.querySelector("a[href='index']").innerHTML = `<i class="fa-solid fa-house"></i> ${translations[lang]["home"]}`;
         document.querySelector("a[href='macroinv']").innerHTML = `<i class="fa-solid fa-bug"></i> ${translations[lang]["macroinv"]}`;

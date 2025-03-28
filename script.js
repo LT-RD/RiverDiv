@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const langSelector = document.getElementById("language-selector");
-    const langButton = langSelector.querySelector(".language-button");
+    const langButton = document.getElementById("language-button"); // Sélecteur plus précis
     const langOptions = document.querySelectorAll(".lang-option");
 
     // Charger la langue sauvegardée
@@ -8,13 +8,15 @@ document.addEventListener("DOMContentLoaded", function() {
     changeLanguage(currentLang);
 
     // Ouvrir/fermer le menu des langues
-    langButton.addEventListener("click", function() {
+    langButton.addEventListener("click", function(event) {
+        event.stopPropagation(); // Empêche la fermeture immédiate
         langSelector.classList.toggle("active");
     });
 
     // Gestion du changement de langue
     langOptions.forEach(option => {
-        option.addEventListener("click", function() {
+        option.addEventListener("click", function(event) {
+            event.stopPropagation();
             let selectedLang = this.getAttribute("data-lang");
             localStorage.setItem("language", selectedLang);
             changeLanguage(selectedLang);
@@ -51,7 +53,6 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         };
 
-        // Modifier les textes des boutons et éléments HTML
         document.querySelector("#language-button").innerHTML = `🌍 ${translations[lang]["menu"]} <i class="fa fa-chevron-down"></i>`;
         document.querySelector("a[href='index']").innerHTML = `<i class="fa-solid fa-house"></i> ${translations[lang]["home"]}`;
         document.querySelector("a[href='macroinv']").innerHTML = `<i class="fa-solid fa-bug"></i> ${translations[lang]["macroinv"]}`;

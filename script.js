@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
         };
 
         // Modifier les textes des boutons et éléments HTML
-        document.querySelector(".menu-button").innerHTML = `🌍 ${translations[lang]["menu"]} <i class="fa fa-chevron-down"></i>`;
+        document.querySelector("#language-button").innerHTML = `🌍 ${translations[lang]["menu"]} <i class="fa fa-chevron-down"></i>`;
         document.querySelector("a[href='index']").innerHTML = `<i class="fa-solid fa-house"></i> ${translations[lang]["home"]}`;
         document.querySelector("a[href='macroinv']").innerHTML = `<i class="fa-solid fa-bug"></i> ${translations[lang]["macroinv"]}`;
         document.querySelector("a[href='map']").innerHTML = `<i class="fa-solid fa-map"></i> ${translations[lang]["map"]}`;

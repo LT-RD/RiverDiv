@@ -6,7 +6,13 @@ layout: default
 <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-<div class="tab-container">
+<!-- Bouton pour ouvrir/fermer le menu -->
+<button id="menu-toggle" class="menu-button">
+    <i class="fa fa-bars"></i> Menu
+</button>
+
+<!-- Conteneur du menu rétractable -->
+<div id="menu" class="tab-container">
     <a href="index" class="tab-button"><i class="fa-solid fa-house"></i> Accueil</a>
     <a href="macroinv" class="tab-button"><i class="fa-solid fa-bug"></i> Macro invertébrés</a>
     <a href="map" class="tab-button"><i class="fa-solid fa-map"></i> Carte Interactive</a>
@@ -16,15 +22,14 @@ layout: default
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-      const tabs = document.querySelectorAll(".tab-button");
-      const currentPath = window.location.pathname;
+    const menuButton = document.getElementById("menu-toggle");
+    const menu = document.getElementById("menu");
 
-      tabs.forEach(tab => {
-          if (tab.getAttribute("href") === currentPath) {
-              tab.classList.add("active");
-          }
-      });
-  });
+    menuButton.addEventListener("click", function() {
+        menu.classList.toggle("show");
+        menuButton.classList.toggle("active");
+    });
+});
 </script>
 
 # Contacts

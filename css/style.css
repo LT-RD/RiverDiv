@@ -1,6 +1,6 @@
 /* Style du bouton menu */
 .menu-button {
-    background-color: #007bff;
+    background-color: #18986f;
     color: white;
     border: none;
     padding: 12px 20px;
@@ -14,7 +14,7 @@
 }
 
 .menu-button:hover {
-    background-color: #0056b3;
+    background-color: #0f815c;
 }
 
 /* Style de l'icône dans le bouton */
@@ -44,6 +44,7 @@
 
 .tab-button:hover {
     background-color: #f0f0f0;
+    color: #18986f;
 }
 
 /* Animation d'ouverture du menu */

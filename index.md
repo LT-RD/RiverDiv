@@ -6,6 +6,17 @@ layout: default
 <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
+<!-- Bouton pour ouvrir le menu de sélection de langue -->
+<div id="language-selector" class="language-dropdown">
+    <button class="language-button">
+        🌍 Langue <i class="fa fa-chevron-down"></i>
+    </button>
+    <div class="language-options">
+        <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
+        <button class="lang-option" data-lang="en">🇬🇧 English</button>
+    </div>
+</div>
+
 <!-- Bouton pour ouvrir/fermer le menu -->
 <button id="menu-toggle" class="menu-button">
     <i class="fa fa-bars"></i> Menu

@@ -36,33 +36,37 @@ document.addEventListener("DOMContentLoaded", function() {
     // Fonction de traduction dynamique
     function changeLanguage(lang) {
         const translations = {
-            "fr": {
-                "menu": "Menu",
-                "home": "Accueil",
-                "macroinv": "Macro invertébrés",
-                "map": "Carte Interactive",
-                "downloads": "Téléchargement",
-                "contacts": "Contacts"
-            },
-            "en": {
-                "menu": "Menu",
-                "home": "Home",
-                "macroinv": "Macro invertebrates",
-                "map": "Interactive Map",
-                "downloads": "Downloads",
-                "contacts": "Contacts"
-            },
-            "es": {
-                "menu": "Menú",
-                "home": "Inicio",
-                "macroinv": "Macro invertebrados",
-                "map": "Mapa Interactivo",
-                "downloads": "Descargas",
-                "contacts": "Contactos"
-            }
-        };
+    "fr": {
+        "menu": "Menu",
+        "language": "Langue",
+        "home": "Accueil",
+        "macroinv": "Macro invertébrés",
+        "map": "Carte Interactive",
+        "downloads": "Téléchargement",
+        "contacts": "Contacts"
+    },
+    "en": {
+        "menu": "Menu",
+        "language": "Language",
+        "home": "Home",
+        "macroinv": "Macro invertebrates",
+        "map": "Interactive Map",
+        "downloads": "Downloads",
+        "contacts": "Contacts"
+    },
+    "es": {
+        "menu": "Menú",
+        "language": "Idioma",
+        "home": "Inicio",
+        "macroinv": "Macro invertebrados",
+        "map": "Mapa Interactivo",
+        "downloads": "Descargas",
+        "contacts": "Contactos"
+    }
+};
 
-        document.querySelector("#language-button").innerHTML = `🌍 ${translations[lang]["menu"]} <i class="fa fa-chevron-down"></i>`;
+        document.querySelector(".menu-button").innerHTML = `🌍 ${translations[lang]["menu"]} <i class="fa fa-chevron-down"></i>`;
+        document.querySelector("#language-button").innerHTML = `🌍 ${translations[lang]["language"]} <i class="fa fa-chevron-down"></i>`;
         document.querySelector("a[href='index']").innerHTML = `<i class="fa-solid fa-house"></i> ${translations[lang]["home"]}`;
         document.querySelector("a[href='macroinv']").innerHTML = `<i class="fa-solid fa-bug"></i> ${translations[lang]["macroinv"]}`;
         document.querySelector("a[href='map']").innerHTML = `<i class="fa-solid fa-map"></i> ${translations[lang]["map"]}`;

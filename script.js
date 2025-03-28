@@ -54,14 +54,14 @@ document.addEventListener("DOMContentLoaded", function() {
         "downloads": "Downloads",
         "contacts": "Contacts"
     },
-    "es": {
-        "menu": "Menú",
-        "language": "Idioma",
-        "home": "Inicio",
-        "macroinv": "Macro invertebrados",
-        "map": "Mapa Interactivo",
-        "downloads": "Descargas",
-        "contacts": "Contactos"
+    "de": {
+        "menu": "Menü",
+        "language": "Sprache",
+        "home": "Startseite",
+        "macroinv": "Makroinvertebraten",
+        "map": "Interaktive Karte",
+        "downloads": "Downloads",
+        "contacts": "Kontakte"
     }
 };
 

@@ -1,7 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
+    console.log("Script chargé"); // Vérifie que le script est bien exécuté
+
     const langSelector = document.getElementById("language-selector");
     const langButton = document.getElementById("language-button"); // Sélecteur plus précis
     const langOptions = document.querySelectorAll(".lang-option");
+
+    if (!langButton || !langSelector) {
+        console.error("Erreur : Bouton de langue non trouvé !");
+        return;
+    }
 
     // Charger la langue sauvegardée
     let currentLang = localStorage.getItem("language") || "fr";
@@ -10,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Ouvrir/fermer le menu des langues
     langButton.addEventListener("click", function(event) {
         event.stopPropagation(); // Empêche la fermeture immédiate
+        console.log("Clic détecté sur le bouton de langue !");
         langSelector.classList.toggle("active");
     });
 
@@ -18,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
         option.addEventListener("click", function(event) {
             event.stopPropagation();
             let selectedLang = this.getAttribute("data-lang");
+            console.log("Langue sélectionnée :", selectedLang);
             localStorage.setItem("language", selectedLang);
             changeLanguage(selectedLang);
             langSelector.classList.remove("active"); // Ferme le menu après sélection

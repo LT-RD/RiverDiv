@@ -12,7 +12,7 @@ layout: default
 </button>
 
 <!-- Conteneur du menu rétractable -->
-<div class="tab-container">
+<div id="menu" class="tab-container">
     <a href="index" class="tab-button"><i class="fa-solid fa-house"></i> Accueil</a>
     <a href="macroinv" class="tab-button"><i class="fa-solid fa-bug"></i> Macro invertébrés</a>
     <a href="map" class="tab-button"><i class="fa-solid fa-map"></i> Carte Interactive</a>

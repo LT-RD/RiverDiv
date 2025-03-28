@@ -33,6 +33,20 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
+function translatePage(lang) {
+    fetch("/data/translations.json") // Charger le fichier JSON avec les traductions
+        .then(response => response.json())
+        .then(translations => {
+            document.querySelectorAll(".translatable").forEach(el => {
+                let key = el.getAttribute("data-key");
+                if (translations[lang] && translations[lang][key]) {
+                    el.innerHTML = translations[lang][key];
+                }
+            });
+        })
+        .catch(error => console.error("Erreur lors du chargement des traductions :", error));
+}
+    
     // Fonction de traduction dynamique
     function changeLanguage(lang) {
         const translations = {
@@ -72,6 +86,8 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector("a[href='map']").innerHTML = `<i class="fa-solid fa-map"></i> ${translations[lang]["map"]}`;
         document.querySelector("a[href='downloads']").innerHTML = `<i class="fa-solid fa-floppy-disk"></i> ${translations[lang]["downloads"]}`;
         document.querySelector("a[href='contacts']").innerHTML = `<i class="fa-solid fa-address-book"></i> ${translations[lang]["contacts"]}`;
+
+        translatePage(lang);
     }
 
     // Fermer le menu si on clique en dehors

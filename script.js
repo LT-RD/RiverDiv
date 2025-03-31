@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "r4": "Insgesamt ist das RiverDiv-Projekt in mehrere Achsen gegliedert, an denen verschiedene Teams beteiligt sind. Unser Team, das Sie auf der Registerkarte Kontakte kennenlernen können, untersucht das Konzept der Rückzugsgebiete und deren Charakterisierung, wobei das Ganze auf aquatische Makroinvertebraten angewandt wird. Dieses Team besteht aus Mitgliedern der Ecole Nationale du Génie de l'Eau et de l'Environnement de Strasbourg (ENGEES) und des Laboratoire Image, Ville, Environnement (LIVE).",
                 "q5": "Wie wurde die Website erstellt ?",
                 "r5": "Die Website wurde mithilfe der Sprachen HTML, JavaScript und CSS erstellt. Das Ganze wurde mithilfe von GitHub und GitHub Pages online gestellt. Die interaktive Karte wurde mit QGIS (mithilfe des QGIS2WEB-Plugins) erstellt und mit Leaflet dynamisch gerendert.",
-                "q6": "Sind die Rohdaten zugänglich ?,
+                "q6": "Sind die Rohdaten zugänglich ?",
                 "r6": "Die Rohdaten der Beobachtungen der verschiedenen Taxa aquatischer Makroinvertebraten, die in der Wieslauter vorkommen, sind nicht direkt auf der Website oder im GitHub-Repository verfügbar. Wenn Sie an solchen Daten interessiert sind, nehmen Sie bitte Kontakt mit einem der Teammitglieder auf.",
                 "partners": "Projektpartner"
             }

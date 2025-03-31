@@ -151,8 +151,9 @@
     padding: 10px;
 }
 .faq-question {
-    display: inline-block;
-    vertical-align: middle; /* Aligne verticalement l'icône et le texte */
+    display: inline-flex;
+    align-items: center;  /* Aligne verticalement l'icône et le texte */
+    gap: 5px;             /* Ajoute un petit espace entre l'icône et le texte */
     font-weight: bold;
     cursor: pointer;
     padding: 10px;

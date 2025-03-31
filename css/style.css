@@ -148,7 +148,7 @@
 
 .faq-item {
     border-bottom: 1px solid #ddd;
-    padding: 10px 50px;
+    padding: 10px;
 }
 .faq-question {
     display: inline-flex;
@@ -156,7 +156,7 @@
     gap: 5px;             /* Ajoute un petit espace entre l'icône et le texte */
     font-weight: bold;
     cursor: pointer;
-    padding: 10px;
+    padding: 10px 50px;
     background-color: #f4f4f4;
     border: 1px solid #ccc;
     margin: 5px 0;

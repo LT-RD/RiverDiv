@@ -7,20 +7,7 @@ lang: fr
 <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-<!-- Sélecteur de langue -->
-<div id="language-selector" class="language-dropdown">
-    <button id="language-button" class="language-button">
-        🌍 Langue <i class="fa fa-chevron-down"></i>
-    </button>
-    <div class="language-options">
-        <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
-        <button class="lang-option" data-lang="en">🇬🇧 English</button>
-        <button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
-    </div>
-</div>
-
-<script src="{{ '/script.js' | relative_url }}"></script>
-
+<div class="header">
 <!-- Bouton pour ouvrir/fermer le menu -->
 <button id="menu-toggle" class="menu-button">
     <i class="fa fa-bars"></i> Menu
@@ -34,6 +21,21 @@ lang: fr
     <a href="downloads" class="tab-button translatable" data-key="downloads"><i class="fa-solid fa-floppy-disk"></i> Téléchargement</a>
     <a href="contacts" class="tab-button translatable" data-key="contacts"><i class="fa-solid fa-address-book"></i> Contacts</a>
 </div>
+
+    <!-- Sélecteur de langue -->
+<div id="language-selector" class="language-dropdown">
+    <button id="language-button" class="language-button">
+        🌍 Langue <i class="fa fa-chevron-down"></i>
+    </button>
+    <div class="language-options">
+        <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
+        <button class="lang-option" data-lang="en">🇬🇧 English</button>
+        <button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
+    </div>
+</div>
+</div>
+
+<script src="{{ '/script.js' | relative_url }}"></script>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {

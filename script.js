@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Mettre à jour les éléments du menu
         document.querySelector(".menu-button").innerHTML = `<i class="fa fa-bars"></i> ${translations[lang]["menu"]}`;
-        document.querySelector("#language-button").innerHTML = `🌍 ${translations[lang]["language"]} <i class="fa fa-chevron-down"></i>`;
+        document.querySelector("#language-button").innerHTML = `<i class="fa-solid fa-language"></i> ${translations[lang]["language"]} <i class="fa fa-chevron-down"></i>`;
         
         document.querySelectorAll("a[data-key]").forEach(link => {
             let key = link.getAttribute("data-key");

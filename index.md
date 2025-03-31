@@ -51,21 +51,20 @@ lang: fr
     <img src="images/RD.png" alt="Logo 1" width="180">
 </p>
 
-# <p class="translatable" data-key="welcome">Bienvenue sur l’Atlas RiverDiv !</p>
+<h1 class="translatable" data-key="welcome">Bienvenue sur l’Atlas RiverDiv !</h1>
 
-## <p class="translatable" data-key="project">Le projet</p>
+<h2 class="translatable" data-key="project">Le projet</h2>
 
 <div style="text-align: justify;">
     <p class="translatable" data-key="text1">Dans le cadre du projet INTERREG RIVERDIV, des travaux comprenant des campagnes de terrain visent à étudier les zones refuges et les macro-invertébrés. Suite à un travail d'identification, l'atlas suivant a été produit pour permettre de visualiser les différents ordres présents et leurs proportions. Sur ce site, vous pouvez accéder à la version interactive de l’atlas ainsi qu’à sa version PDF. Une présentation des différents taxons observés sur la Wieslauter et de leurs caractéristiques est également disponible.</p>
 </div>
 
-## <p class="translatable" data-key="links">Liens vers le projet</p>
+<h2 class="translatable" data-key="links">Liens vers le projet</h2>
 
-- [<p class="translatable" data-key="link1">Projet RiverDiv - Site de la RPTU</p>](https://nuw.rptu.de/projekte/riverdiv/version-francaise)
+- <a href="https://nuw.rptu.de/projekte/riverdiv/" class="translatable" data-key="link1">Projet RiverDiv - Site de la RPTU</a>
+<a href="https://live.unistra.fr/recherches/hydrosystemes/projets/liste-des-projets/projet-interreg-riverdiv" class="translatable" data-key="link2">- Projet RiverDiv - Site du LIVE</a>
 
-- [<p class="translatable" data-key="link2">Projet RiverDiv - Site du LIVE</p>](https://live.unistra.fr/recherches/hydrosystemes/projets/liste-des-projets/projet-interreg-riverdiv)
-
-## <p class="translatable" data-key="faq">Foire aux questions</p>
+<h2 class="translatable" data-key="faq">Foire aux questions</h2>
 
 <section id="faq">
     <div class="faq-item">
@@ -106,7 +105,7 @@ lang: fr
     });
 </script>
 
-## <p class="translatable" data-key="partners">Partenaires du projet</p>
+<h2 class="translatable" data-key="partners">Partenaires du projet</h2>
 <p align="center">
     <img src="images/Logos.png" alt="Logo 1" width="800">
 </p>

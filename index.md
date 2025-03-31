@@ -35,6 +35,16 @@ lang: fr
     <a href="contacts" class="tab-button"><i class="fa-solid fa-address-book"></i> Contacts</a>
 </div>
 
+<nav>
+    <a href="index.html" class="translatable" data-key="home"><i class="fa-solid fa-house"></i> Accueil</a>
+    <a href="macroinv.html" class="translatable" data-key="macroinv"><i class="fa-solid fa-bug"></i> Macro invertébrés</a>
+    <a href="map.html" class="translatable" data-key="map"><i class="fa-solid fa-map"></i> Carte Interactive</a>
+    <a href="downloads.html" class="translatable" data-key="downloads"><i class="fa-solid fa-floppy-disk"></i> Téléchargement</a>
+    <a href="contacts.html" class="translatable" data-key="contacts"><i class="fa-solid fa-address-book"></i> Contacts</a>
+</nav>
+
+<p class="translatable" data-key="welcome">Bienvenue sur notre site !</p>
+
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const menuButton = document.getElementById("menu-toggle");

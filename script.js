@@ -122,6 +122,11 @@ document.addEventListener("DOMContentLoaded", function() {
         // Mettre à jour les éléments du menu
         document.querySelector(".menu-button").innerHTML = `<i class="fa fa-bars"></i> ${translations[lang]["menu"]}`;
         document.querySelector("#language-button").innerHTML = `<i class="fa-solid fa-language"></i> ${translations[lang]["language"]}`;
+        document.querySelector("a[href='index']").innerHTML = `<i class="fa-solid fa-house"></i> ${translations[lang]["home"]}`;
+        document.querySelector("a[href='macroinv']").innerHTML = `<i class="fa-solid fa-bug"></i> ${translations[lang]["macroinv"]}`;
+        document.querySelector("a[href='map']").innerHTML = `<i class="fa-solid fa-map"></i> ${translations[lang]["map"]}`;
+        document.querySelector("a[href='downloads']").innerHTML = `<i class="fa-solid fa-floppy-disk"></i> ${translations[lang]["downloads"]}`;
+        document.querySelector("a[href='contacts']").innerHTML = `<i class="fa-solid fa-address-book"></i> ${translations[lang]["contacts"]}`;
         
         document.querySelectorAll("a[data-key]").forEach(link => {
             let key = link.getAttribute("data-key");

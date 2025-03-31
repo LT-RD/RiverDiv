@@ -28,11 +28,11 @@ lang: fr
 
 <!-- Conteneur du menu rétractable -->
 <div id="menu" class="tab-container">
-    <i class="fa-solid fa-house"></i><a href="index" class="tab-button translatable" data-key="home"> Accueil</a>
-    <i class="fa-solid fa-bug"></i><a href="macroinv" class="tab-button translatable" data-key="macroinv"> Macro invertébrés</a>
-    <i class="fa-solid fa-map"></i><a href="map" class="tab-button translatable" data-key="map"> Carte Interactive</a>
-    <i class="fa-solid fa-floppy-disk"></i><a href="downloads" class="tab-button translatable" data-key="downloads"> Téléchargement</a>
-    <i class="fa-solid fa-address-book"></i><a href="contacts" class="tab-button translatable" data-key="contacts"> Contacts</a>
+    <a href="index" class="tab-button"><i class="fa-solid fa-house"></i> Accueil</a>
+    <a href="macroinv" class="tab-button"><i class="fa-solid fa-bug"></i> Macro invertébrés</a>
+    <a href="map" class="tab-button"><i class="fa-solid fa-map"></i> Carte Interactive</a>
+    <a href="downloads" class="tab-button"><i class="fa-solid fa-floppy-disk"></i> Téléchargement</a>
+    <a href="contacts" class="tab-button"><i class="fa-solid fa-address-book"></i> Contacts</a>
 </div>
 
 <script>

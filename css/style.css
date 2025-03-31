@@ -148,7 +148,7 @@
 
 .faq-item {
     border-bottom: 1px solid #ddd;
-    padding: 10px;
+    padding: 10px 50px;
 }
 .faq-question {
     display: inline-flex;

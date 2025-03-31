@@ -15,9 +15,7 @@ lang: fr
 
     <!-- Sélecteur de langue -->
 <div id="language-selector" class="language-dropdown">
-    <button id="language-button" class="language-button">
-        🌍 Langue <i class="fa fa-chevron-down"></i>
-    </button>
+    <button id="language-button" class="language-button"><i class="fa-solid fa-language"></i> Langue <i class="fa fa-chevron-down"></i></button>
     <div class="language-options">
         <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
         <button class="lang-option" data-lang="en">🇬🇧 English</button>

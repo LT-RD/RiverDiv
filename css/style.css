@@ -162,7 +162,7 @@
     margin: 5px 0;
     border-radius: 5px;
     transition: background-color 0.3s;
-    width: 1000px;         /* Fixe la largeur de l'encadré */
+    width: 800px;         /* Fixe la largeur de l'encadré */
     height: 60px;         /* Fixe la hauteur de l'encadré */
 }
 

@@ -28,22 +28,12 @@ lang: fr
 
 <!-- Conteneur du menu rétractable -->
 <div id="menu" class="tab-container">
-    <a href="index" class="tab-button"><i class="fa-solid fa-house"></i> Accueil</a>
-    <a href="macroinv" class="tab-button"><i class="fa-solid fa-bug"></i> Macro invertébrés</a>
-    <a href="map" class="tab-button"><i class="fa-solid fa-map"></i> Carte Interactive</a>
-    <a href="downloads" class="tab-button"><i class="fa-solid fa-floppy-disk"></i> Téléchargement</a>
-    <a href="contacts" class="tab-button"><i class="fa-solid fa-address-book"></i> Contacts</a>
+    <a href="index" class="tab-button translatable" data-key="home"><i class="fa-solid fa-house"></i> Accueil</a>
+    <a href="macroinv" class="tab-button translatable" data-key="macroinv"><i class="fa-solid fa-bug"></i> Macro invertébrés</a>
+    <a href="map" class="tab-button translatable" data-key="map"><i class="fa-solid fa-map"></i> Carte Interactive</a>
+    <a href="downloads" class="tab-button translatable" data-key="downloads"><i class="fa-solid fa-floppy-disk"></i> Téléchargement</a>
+    <a href="contacts" class="tab-button translatable" data-key="contacts"><i class="fa-solid fa-address-book"></i> Contacts</a>
 </div>
-
-<nav>
-    <a href="index.html" class="translatable" data-key="home"><i class="fa-solid fa-house"></i> Accueil</a>
-    <a href="macroinv.html" class="translatable" data-key="macroinv"><i class="fa-solid fa-bug"></i> Macro invertébrés</a>
-    <a href="map.html" class="translatable" data-key="map"><i class="fa-solid fa-map"></i> Carte Interactive</a>
-    <a href="downloads.html" class="translatable" data-key="downloads"><i class="fa-solid fa-floppy-disk"></i> Téléchargement</a>
-    <a href="contacts.html" class="translatable" data-key="contacts"><i class="fa-solid fa-address-book"></i> Contacts</a>
-</nav>
-
-<p class="translatable" data-key="welcome">Bienvenue sur notre site !</p>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
@@ -61,46 +51,46 @@ lang: fr
     <img src="images/RD.png" alt="Logo 1" width="180">
 </p>
 
-# <p class="translatable" data-key="welcome">{{ site.data.translations[page.lang].welcome | default: "Texte non trouvé" }}</p>
+# <p class="translatable" data-key="welcome">Bienvenue sur l’Atlas RiverDiv !</p>
 
-## <p class="translatable" data-key="project">{{ site.data.translations[page.lang].project }}</p>
+## <p class="translatable" data-key="project">Le projet</p>
 
 <div style="text-align: justify;">
-    <p class="translatable" data-key="text1">{{ site.data.translations[page.lang].text1 }}</p>
+    <p class="translatable" data-key="text1">Dans le cadre du projet INTERREG RIVERDIV, des travaux comprenant des campagnes de terrain visent à étudier les zones refuges et les macro-invertébrés. Suite à un travail d'identification, l'atlas suivant a été produit pour permettre de visualiser les différents ordres présents et leurs proportions. Sur ce site, vous pouvez accéder à la version interactive de l’atlas ainsi qu’à sa version PDF. Une présentation des différents taxons observés sur la Wieslauter et de leurs caractéristiques est également disponible.</p>
 </div>
 
-## <p class="translatable" data-key="links">{{ site.data.translations[page.lang].links }}</p>
+## <p class="translatable" data-key="links">Liens vers le projet</p>
 
-- [<p class="translatable" data-key="link1">{{ site.data.translations[page.lang].link1 }}</p>](https://nuw.rptu.de/projekte/riverdiv/version-francaise)
+- [<p class="translatable" data-key="link1">Projet RiverDiv - Site de la RPTU</p>](https://nuw.rptu.de/projekte/riverdiv/version-francaise)
 
-- [<p class="translatable" data-key="link2">{{ site.data.translations[page.lang].link2 }}</p>](https://live.unistra.fr/recherches/hydrosystemes/projets/liste-des-projets/projet-interreg-riverdiv)
+- [<p class="translatable" data-key="link2">Projet RiverDiv - Site du LIVE</p>](https://live.unistra.fr/recherches/hydrosystemes/projets/liste-des-projets/projet-interreg-riverdiv)
 
-## <p class="translatable" data-key="faq">{{ site.data.translations[page.lang].faq }}</p>
+## <p class="translatable" data-key="faq">Foire aux questions</p>
 
 <section id="faq">
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> <p class="translatable" data-key="q1">{{ site.data.translations[page.lang].q1 }}</p></div>
-        <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r1">{{ site.data.translations[page.lang].r1 }}</p></div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> <p class="translatable" data-key="q1">Pourquoi un tel site ?</p></div>
+        <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r1">Ce site permet de présenter plusieurs résultats concernant les macro-invertébrés : carte interactive, atlas PDF, galerie présentant les différents taxons.</p></div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> <p class="translatable" data-key="q2">{{ site.data.translations[page.lang].q2 }}</p></div>
-        <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r2">{{ site.data.translations[page.lang].r2 }}</p></div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> <p class="translatable" data-key="q2">Pourquoi les macro-invertébrés ?</p></div>
+        <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r2">Les macro invertébrés, du fait de leur caractéristiques spécifiques, sont souvent étudiés pour évaluer l'état d'un milieu aquatique. Certains taxons, s'ils sont présents, permettent par exemple d'établir le niveau de pollution du milieu du fait de leur polluo-sensibilité. Vous pourrez retrouver des informations sur les différents taxons observés dans l'onglet correspondant ainsi que dans l'atlas PDF.</p></div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> <p class="translatable" data-key="q3">{{ site.data.translations[page.lang].q3 }}</p></div>
-        <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r3">{{ site.data.translations[page.lang].r3 }}</p></div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> <p class="translatable" data-key="q3">Que sont les zones refuge ?</p></div>
+        <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r3">Les zones refuge sont des espaces ausin desquels les individus vont pouvoir se protéger d'un danger (événement extrême, prédateur, etc.), se reposer, se nourri ou encore se reproduire.</p></div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> <p class="translatable" data-key="q4">{{ site.data.translations[page.lang].q4 }}</p></div>
-        <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r4">{{ site.data.translations[page.lang].r4 }}</p></div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> <p class="translatable" data-key="q4">Qui est derrière ce site ?</p></div>
+        <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r4">Au global, le projet RiverDiv s'articule autour de plusieurs axes sur lesquels sont associés différentes équipes. Notre équipe, que nous vous invitons à découvrir dans l'onglet contacts, étudie la notion de zones refuge et leur caractérisation, le tout appliqué aux macro-invertébrés aquatiques. Cette équipe est constitué de membres de l'Ecole Nationale du Génie de l'Eau et de l'Environnement de Strasbourg (ENGEES) et du Laboratoire Image, Ville, Environnement (LIVE).</p></div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> <p class="translatable" data-key="q5">{{ site.data.translations[page.lang].q5 }}</p></div>
-        <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r5">{{ site.data.translations[page.lang].r5 }}</p></div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> <p class="translatable" data-key="q5">Comment le site a-t-il été réalisé ?</p></div>
+        <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r5">Le site a été réalisé à l'aide des langages HTML, JavaScript et CSS. Le tout a été mis en ligne grâce à GitHub et GitHub Pages. La carte interactive est issue d'un travail sur le logiciel QGIS (à l'aide du plugin QGIS2WEB) et le rendu dynamique est permis par Leaflet.</p></div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> <p class="translatable" data-key="q6">{{ site.data.translations[page.lang].q6 }}</p></div>
-        <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r6">{{ site.data.translations[page.lang].r6 }}</p></div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> <p class="translatable" data-key="q6">Les données brutes sont-elles accessibles ?</p></div>
+        <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r6">Les données brutes d'observations des différents taxons de macro-invertébrés aquatiques présents sur la Wieslauter ne sont pas disponibles directement sur le site ou le dépôt GitHub. Si de telles données vous intéressent, veuillez prendre contacts avec l'un des membres de l'équipe.</p></div>
     </div>
 </section>
 
@@ -116,7 +106,7 @@ lang: fr
     });
 </script>
 
-## <p class="translatable" data-key="partners">{{ site.data.translations[page.lang].partners }}</p>
+## <p class="translatable" data-key="partners">Partenaires du projet</p>
 <p align="center">
     <img src="images/Logos.png" alt="Logo 1" width="800">
 </p>

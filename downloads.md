@@ -6,10 +6,24 @@ layout: default
 <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
+<div class="header">
 <!-- Bouton pour ouvrir/fermer le menu -->
 <button id="menu-toggle" class="menu-button">
     <i class="fa fa-bars"></i> Menu
 </button>
+
+    <!-- Sélecteur de langue -->
+<div id="language-selector" class="language-dropdown">
+    <button id="language-button" class="language-button"><i class="fa-solid fa-language"></i> Langue</button>
+    <div class="language-options">
+        <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
+        <button class="lang-option" data-lang="en">🇬🇧 English</button>
+        <button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
+    </div>
+</div>
+</div>
+
+<script src="{{ '/script.js' | relative_url }}"></script>
 
 <!-- Conteneur du menu rétractable -->
 <div id="menu" class="tab-container">
@@ -36,4 +50,4 @@ layout: default
 
 Ici, vous pouvez télécharger une version PDF de l'atlas :
 
-[📥 Télécharger l'atlas en PDF](Atlas-RiverDiv.pdf)
+<a href="Atlas-RiverDiv.pdf"><i class="fa-solid fa-floppy-disk"></i> Télécharger l'atlas en PDF</a>

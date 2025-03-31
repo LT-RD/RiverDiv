@@ -13,15 +13,6 @@ lang: fr
     <i class="fa fa-bars"></i> Menu
 </button>
 
-<!-- Conteneur du menu rétractable -->
-<div id="menu" class="tab-container">
-    <a href="index" class="tab-button translatable" data-key="home"><i class="fa-solid fa-house"></i> Accueil</a>
-    <a href="macroinv" class="tab-button translatable" data-key="macroinv"><i class="fa-solid fa-bug"></i> Macro invertébrés</a>
-    <a href="map" class="tab-button translatable" data-key="map"><i class="fa-solid fa-map"></i> Carte Interactive</a>
-    <a href="downloads" class="tab-button translatable" data-key="downloads"><i class="fa-solid fa-floppy-disk"></i> Téléchargement</a>
-    <a href="contacts" class="tab-button translatable" data-key="contacts"><i class="fa-solid fa-address-book"></i> Contacts</a>
-</div>
-
     <!-- Sélecteur de langue -->
 <div id="language-selector" class="language-dropdown">
     <button id="language-button" class="language-button">
@@ -36,6 +27,15 @@ lang: fr
 </div>
 
 <script src="{{ '/script.js' | relative_url }}"></script>
+
+<!-- Conteneur du menu rétractable -->
+<div id="menu" class="tab-container">
+    <a href="index" class="tab-button translatable" data-key="home"><i class="fa-solid fa-house"></i> Accueil</a>
+    <a href="macroinv" class="tab-button translatable" data-key="macroinv"><i class="fa-solid fa-bug"></i> Macro invertébrés</a>
+    <a href="map" class="tab-button translatable" data-key="map"><i class="fa-solid fa-map"></i> Carte Interactive</a>
+    <a href="downloads" class="tab-button translatable" data-key="downloads"><i class="fa-solid fa-floppy-disk"></i> Téléchargement</a>
+    <a href="contacts" class="tab-button translatable" data-key="contacts"><i class="fa-solid fa-address-book"></i> Contacts</a>
+</div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {

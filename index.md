@@ -62,33 +62,33 @@ lang: fr
 <h2 class="translatable" data-key="links">Liens vers le projet</h2>
 
 - <a href="https://nuw.rptu.de/projekte/riverdiv/" class="translatable" data-key="link1">Projet RiverDiv - Site de la RPTU</a>
-<a href="https://live.unistra.fr/recherches/hydrosystemes/projets/liste-des-projets/projet-interreg-riverdiv" class="translatable" data-key="link2">- Projet RiverDiv - Site du LIVE</a>
+- <a href="https://live.unistra.fr/recherches/hydrosystemes/projets/liste-des-projets/projet-interreg-riverdiv" class="translatable" data-key="link2">Projet RiverDiv - Site du LIVE</a>
 
 <h2 class="translatable" data-key="faq">Foire aux questions</h2>
 
 <section id="faq">
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> <p class="translatable" data-key="q1">Pourquoi un tel site ?</p></div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="q1">Pourquoi un tel site ?</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r1">Ce site permet de présenter plusieurs résultats concernant les macro-invertébrés : carte interactive, atlas PDF, galerie présentant les différents taxons.</p></div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> <p class="translatable" data-key="q2">Pourquoi les macro-invertébrés ?</p></div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="q2">Pourquoi les macro-invertébrés ?</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r2">Les macro invertébrés, du fait de leur caractéristiques spécifiques, sont souvent étudiés pour évaluer l'état d'un milieu aquatique. Certains taxons, s'ils sont présents, permettent par exemple d'établir le niveau de pollution du milieu du fait de leur polluo-sensibilité. Vous pourrez retrouver des informations sur les différents taxons observés dans l'onglet correspondant ainsi que dans l'atlas PDF.</p></div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> <p class="translatable" data-key="q3">Que sont les zones refuge ?</p></div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="q3">Que sont les zones refuge ?</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r3">Les zones refuge sont des espaces ausin desquels les individus vont pouvoir se protéger d'un danger (événement extrême, prédateur, etc.), se reposer, se nourri ou encore se reproduire.</p></div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> <p class="translatable" data-key="q4">Qui est derrière ce site ?</p></div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="q4">Qui est derrière ce site ?</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r4">Au global, le projet RiverDiv s'articule autour de plusieurs axes sur lesquels sont associés différentes équipes. Notre équipe, que nous vous invitons à découvrir dans l'onglet contacts, étudie la notion de zones refuge et leur caractérisation, le tout appliqué aux macro-invertébrés aquatiques. Cette équipe est constitué de membres de l'Ecole Nationale du Génie de l'Eau et de l'Environnement de Strasbourg (ENGEES) et du Laboratoire Image, Ville, Environnement (LIVE).</p></div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> <p class="translatable" data-key="q5">Comment le site a-t-il été réalisé ?</p></div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="q5">Comment le site a-t-il été réalisé ?</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r5">Le site a été réalisé à l'aide des langages HTML, JavaScript et CSS. Le tout a été mis en ligne grâce à GitHub et GitHub Pages. La carte interactive est issue d'un travail sur le logiciel QGIS (à l'aide du plugin QGIS2WEB) et le rendu dynamique est permis par Leaflet.</p></div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> <p class="translatable" data-key="q6">Les données brutes sont-elles accessibles ?</p></div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="q6">Les données brutes sont-elles accessibles ?</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r6">Les données brutes d'observations des différents taxons de macro-invertébrés aquatiques présents sur la Wieslauter ne sont pas disponibles directement sur le site ou le dépôt GitHub. Si de telles données vous intéressent, veuillez prendre contacts avec l'un des membres de l'équipe.</p></div>
     </div>
 </section>

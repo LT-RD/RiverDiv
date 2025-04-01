@@ -46,8 +46,8 @@ layout: default
 });
 </script>
 
-# Télécharger le PDF
+<h1 class="translatable" data-key="dlpdf">Télécharger le PDF</h1>
 
-Ici, vous pouvez télécharger une version PDF de l'atlas :
+<p class="translatable" data-key="textpdf">Ici, vous pouvez télécharger une version PDF de l'atlas :</p>
 
-<a href="Atlas-RiverDiv.pdf"><i class="fa-solid fa-floppy-disk"></i> Télécharger l'atlas en PDF</a>
+<a href="Atlas-RiverDiv.pdf"><i class="fa-solid fa-floppy-disk"></i><p class="translatable" data-key="linkpdf">Télécharger l'atlas en PDF</p></a>

@@ -46,7 +46,7 @@ layout: default
 });
 </script>
 
-# Carte interactive
+<h1 class="translatable" data-key="map2">Carte interactive</h1>
 
 <style>
     /* Conteneur de la carte centré dans la page */

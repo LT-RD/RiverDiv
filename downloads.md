@@ -50,4 +50,4 @@ layout: default
 
 <p class="translatable" data-key="textpdf">Ici, vous pouvez télécharger une version PDF de l'atlas :</p>
 
-<a href="Atlas-RiverDiv.pdf"><i class="fa-solid fa-floppy-disk"></i><p class="translatable" data-key="linkpdf">Télécharger l'atlas en PDF</p></a>
+<a href="Atlas-RiverDiv.pdf" class="translatable" data-key="linkpdf"><i class="fa-solid fa-floppy-disk"></i> Télécharger l'atlas en PDF</a>

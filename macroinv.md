@@ -46,137 +46,137 @@ layout: default
 });
 </script>
 
-# Galerie des macro-invertébrés
+<h1 class="translatable" data-key="macroinv2">Galerie des macro-invertébrés</h1>
 
-Cette partie est actuellement en construction !
+<p class="translatable" data-key="text2">Cette partie est actuellement en construction !</p>
 
 <section id="faq">
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> Acantocéphales</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="acan">Acantocéphales</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;">En construction...</p>
+            <p style="text-align: justify;"><p class="translatable" data-key="acan2">En construction</p></p>
             <img src="images/ACAN.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> Achètes</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="ache">Achètes</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;">En construction...</p>
+            <p style="text-align: justify;"><p class="translatable" data-key="ache2">En construction</p></p>
             <img src="images/ACH.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> Amphipodes</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="amphi">Amphipodes</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;">En construction...</p>
+            <p style="text-align: justify;"><p class="translatable" data-key="amphi2">En construction</p></p>
             <img src="images/Gammarus.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> Annélidés</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="anne">Annélidés</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;">En construction...</p>
+            <p style="text-align: justify;"><p class="translatable" data-key="anne2">En construction</p></p>
             <img src="images/ANNE.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> Bivalves</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="biva">Bivalves</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;">En construction...</p>
+            <p style="text-align: justify;"><p class="translatable" data-key="biva2">En construction</p></p>
             <img src="images/BIVA.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> Coléoptères</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="coleo">Coléoptères</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;">En construction...</p>
+            <p style="text-align: justify;"><p class="translatable" data-key="coleo2">En construction</p></p>
             <img src="images/COLEO.jpg" alt="Logo 1" width="250" class="logo">
             <img src="images/COLEO2.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> Décapodes</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="deca">Décapodes</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;">En construction...</p>
+            <p style="text-align: justify;"><p class="translatable" data-key="deca2">En construction</p></p>
             <img src="images/DECA.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> Diptères</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="dipt">Diptères</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;">En construction...</p>
+            <p style="text-align: justify;"><p class="translatable" data-key="dipt2">En construction</p></p>
             <img src="images/DIPT.jpg" alt="Logo 1" width="250" class="logo">
             <img src="images/DIPT2.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> Ephéméroptères</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="epheme">Ephéméroptères</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;">En construction...</p>
+            <p style="text-align: justify;"><p class="translatable" data-key="epheme2">En construction</p></p>
             <img src="images/EPHEME.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> Gastéropodes</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="gast">Gastéropodes</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;">En construction...</p>
+            <p style="text-align: justify;"><p class="translatable" data-key="gast2">En construction</p></p>
             <img src="images/GAST.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> Hétéroptères</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="hetero">Hétéroptères</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;">En construction...</p>
+            <p style="text-align: justify;"><p class="translatable" data-key="hetero2">En construction</p></p>
             <img src="images/HETERO.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> Hydracariens</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="hydra">Hydracariens</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;">En construction...</p>
+            <p style="text-align: justify;"><p class="translatable" data-key="hydra2">En construction</p></p>
             <img src="images/HYDRA.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> Isopodes</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="iso">Isopodes</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;">En construction...</p>
+            <p style="text-align: justify;"><p class="translatable" data-key="iso2">En construction</p></p>
             <img src="images/ISO.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> Némathelminthes</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="nema">Némathelminthes</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;">En construction...</p>
+            <p style="text-align: justify;"><p class="translatable" data-key="nema2">En construction</p></p>
             <img src="images/NEMA.jpg" alt="Logo 1" width="250" class="logo">
             <img src="images/NEMATO.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> Odonates</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="odo">Odonates</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;">En construction...</p>
+            <p style="text-align: justify;"><p class="translatable" data-key="odo2">En construction</p></p>
             <img src="images/ODO.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> Oligochètes</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="oligo">Oligochètes</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;">En construction...</p>
+            <p style="text-align: justify;"><p class="translatable" data-key="oligo2">En construction</p></p>
             <img src="images/OLIGO.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> Plécoptères</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="pleco">Plécoptères</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;">En construction...</p>
+            <p style="text-align: justify;"><p class="translatable" data-key="pleco2">En construction</p></p>
             <img src="images/PLECO.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i> Trichoptères</div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="tricho">Trichoptères</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;">En construction...</p>
+            <p style="text-align: justify;"><p class="translatable" data-key="tricho2">En construction</p></p>
             <img src="images/TRICHOtinodes.jpg" alt="Logo 1" width="250" class="logo">
             <img src="images/hydropsyche.jpg" alt="Logo 1" width="250" class="logo">
         </div>

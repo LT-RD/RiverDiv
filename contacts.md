@@ -46,30 +46,30 @@ layout: default
 });
 </script>
 
-# Contacts
+<h1 class="translatable" data-key="contacts">Contacts</h1>
 
-Pour toute question ou besoin éventuel, n'hésitez pas à prendre contact avec nous !
+<p class="translatable" data-key="textcontact">Pour toute question ou besoin éventuel, n'hésitez pas à prendre contact avec nous !</p>
 
 ## Loïc Trutin
-*Ingénieur d'études ENGEES - LIVE*
+<p class="translatable" data-key="LT" style="font-style: italic;">Ingénieur d'études ENGEES - LIVE</p>
 
 - [Mail](mailto:loic.trutin@engees.unistra.fr)
 - [LinkedIn](https://www.linkedin.com/in/lo%C3%AFc-trutin-681299220/)
 
 ## Matthieu Lucchini
-*Doctorant ENGEES - LIVE*
+<p class="translatable" data-key="ML" style="font-style: italic;">Doctorant ENGEES - LIVE</p>
 
 - [Mail](mailto:mlucchin1@engees.unistra.fr)
 - LinkedIn
 
 ## Cybill Staentzel
-*Enseignante-chercheure ENGEES - LIVE*
+<p class="translatable" data-key="CS" style="font-style: italic;">Enseignante-chercheure ENGEES - LIVE</p>
 
 - [Mail](mailto:cybill.staentzel@engees.unistra.fr)
 - [LinkedIn](https://www.linkedin.com/in/cybill-staentzel-bb136796/)
 
 ## Jean-Nicolas Beisel
-*Professeur ENGEES - LIVE*
+<p class="translatable" data-key="JNB" style="font-style: italic;">Professeur ENGEES - LIVE</p>
 
 - [Mail](mailto:jean-nicolas.beisel@engees.unistra.fr)
 - [LinkedIn](https://www.linkedin.com/in/jean-nicolas-beisel-48a62b302/)

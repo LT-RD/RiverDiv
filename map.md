@@ -71,30 +71,43 @@ layout: default
         padding: 0;
     }
 
-/* Barre latérale sur grand écran */
-.layer-panel {
+#fullscreen-toggle {
     position: absolute;
     top: 10px;
-    left: 10px;
-    width: 250px;
-    background: white;
-    z-index: 1000;
+    right: 10px;
+    z-index: 9999;
+    padding: 8px 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s;
 }
 
-/* Adaptation sur mobile */
-@media (max-width: 768px) {
-    .layer-panel {
-        width: 100%;
-        top: auto;
-        bottom: 0;
-        left: 0;
-        height: 200px;
-        overflow-y: auto;
-    }
+#fullscreen-toggle:hover {
+    background: rgba(255, 255, 255, 1);
 }
-    
 </style>
 
 <div class="map-container">
     <iframe src="index_map.html"></iframe>
+    <button id="fullscreen-toggle" title="Plein écran"><i class="fa-solid fa-expand"></i></button>
 </div>
+
+<script>
+    const fullscreenBtn = document.getElementById('fullscreen-toggle');
+    const mapContainer = document.querySelector('.map-container');
+
+    fullscreenBtn.addEventListener('click', () => {
+        if (!document.fullscreenElement) {
+            mapContainer.requestFullscreen().catch(err => {
+                alert(`Erreur lors du passage en plein écran : ${err.message}`);
+            });
+        } else {
+            document.exitFullscreen();
+        }
+    });
+</script>
+

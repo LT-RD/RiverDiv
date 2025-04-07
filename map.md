@@ -52,50 +52,43 @@ layout: default
     /* Conteneur de la carte centré dans la page */
     .map-wrapper {
         display: flex;
-        justify-content: center; /* Centre horizontalement */
-        align-items: center; /* Centre verticalement */
-        height: 100vh; /* Prend toute la hauteur de la fenêtre */
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        min-height: 100vh;
+        box-sizing: border-box;
     }
 
-    /* Taille et bordure de la carte */
+    /* Conteneur de la carte avec dimensions responsives */
     .map-container {
-        width: 1500px; /* Largeur souhaitée */
-        height: 800px; /* Hauteur souhaitée */
-        border: 2px solid #ccc; /* Bordure pour encadrer la carte */
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Ombre pour effet visuel */
-        border-radius: 8px; /* Coins arrondis */
-        background: #f9f9f9; /* Fond clair */
-        overflow: hidden; /* Empêche les débordements */
+        width: 100%;
+        max-width: 1200px; /* Largeur maximale sur grand écran */
+        aspect-ratio: 3 / 2; /* Maintient un bon ratio largeur/hauteur */
+        border: 2px solid #ccc;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        background: #f9f9f9;
+        overflow: hidden;
     }
 
-    /* Style pour l'iframe */
+    /* Iframe prend tout l'espace disponible */
     .map-container iframe {
         width: 100%;
         height: 100%;
         border: none;
     }
 
-    /* Media Query pour les petits écrans (téléphones, tablettes) */
-    @media screen and (max-width: 768px) {
-        .map-container {
-            width: 100%; /* La carte prend 100% de la largeur disponible sur petit écran */
-            height: 400px; /* La hauteur de la carte est réduite pour un meilleur affichage */
-        }
-    }
-
-    /* Media Query pour les très petits écrans (smartphones en portrait) */
+    /* Ajustements pour très petits écrans */
     @media screen and (max-width: 480px) {
         .map-container {
-            width: 100%; /* La carte prend toute la largeur sur un écran très petit */
-            height: 300px; /* Réduit encore la hauteur pour les écrans très petits */
+            aspect-ratio: 4 / 3; /* Ratio plus adapté à un écran portrait */
         }
     }
 </style>
 
-<!-- Conteneur principal pour centrer la carte -->
+<!-- HTML -->
 <div class="map-wrapper">
     <div class="map-container">
         <iframe src="index_map.html"></iframe>
     </div>
 </div>
-

@@ -49,46 +49,29 @@ layout: default
 <h1 class="translatable" data-key="map2">Carte interactive</h1>
 
 <style>
-    /* Conteneur de la carte centré dans la page */
-    .map-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem;
-        min-height: 100vh;
-        box-sizing: border-box;
-    }
-
-    /* Conteneur de la carte avec dimensions responsives */
+    /* La carte prend toute la largeur et une bonne hauteur */
     .map-container {
-        width: 100%;
-        max-width: 1200px; /* Largeur maximale sur grand écran */
-        aspect-ratio: 3 / 2; /* Maintient un bon ratio largeur/hauteur */
-        border: 2px solid #ccc;
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-        border-radius: 8px;
-        background: #f9f9f9;
+        width: 100vw; /* Prend toute la largeur de la fenêtre */
+        height: 90vh; /* Hauteur de 90% de la fenêtre */
+        margin: 0;
+        padding: 0;
+        border: none;
         overflow: hidden;
     }
 
-    /* Iframe prend tout l'espace disponible */
     .map-container iframe {
         width: 100%;
         height: 100%;
         border: none;
     }
 
-    /* Ajustements pour très petits écrans */
-    @media screen and (max-width: 480px) {
-        .map-container {
-            aspect-ratio: 4 / 3; /* Ratio plus adapté à un écran portrait */
-        }
+    /* Supprime les marges sur body pour un vrai plein écran */
+    body {
+        margin: 0;
+        padding: 0;
     }
 </style>
 
-<!-- HTML -->
-<div class="map-wrapper">
-    <div class="map-container">
-        <iframe src="index_map.html"></iframe>
-    </div>
+<div class="map-container">
+    <iframe src="index_map.html"></iframe>
 </div>

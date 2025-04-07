@@ -70,6 +70,29 @@ layout: default
         margin: 0;
         padding: 0;
     }
+
+/* Barre latérale sur grand écran */
+.layer-panel {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 250px;
+    background: white;
+    z-index: 1000;
+}
+
+/* Adaptation sur mobile */
+@media (max-width: 768px) {
+    .layer-panel {
+        width: 100%;
+        top: auto;
+        bottom: 0;
+        left: 0;
+        height: 200px;
+        overflow-y: auto;
+    }
+}
+    
 </style>
 
 <div class="map-container">

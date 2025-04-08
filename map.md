@@ -51,9 +51,10 @@ layout: default
 <style>
     /* La carte prend toute la largeur et une bonne hauteur */
     .map-container {
-        width: 50vw; /* Prend toute la largeur de la fenêtre */
+        display: block
+        width: 80vw; /* Prend toute la largeur de la fenêtre */
         height: 90vh; /* Hauteur de 90% de la fenêtre */
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
         border: none;
         overflow: hidden;
@@ -73,8 +74,8 @@ layout: default
 
 #fullscreen-toggle {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 50px;
+    right: 50px;
     z-index: 9999;
     padding: 8px 10px;
     background: rgba(255, 255, 255, 0.8);

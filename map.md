@@ -51,7 +51,7 @@ layout: default
 <style>
     /* La carte prend toute la largeur et une bonne hauteur */
     .map-container {
-        width: 100vw; /* Prend toute la largeur de la fenêtre */
+        width: 50vw; /* Prend toute la largeur de la fenêtre */
         height: 90vh; /* Hauteur de 90% de la fenêtre */
         margin: 0;
         padding: 0;
@@ -92,8 +92,8 @@ layout: default
 </style>
 
 <div class="map-container">
-    <iframe src="index_map.html"></iframe>
     <button id="fullscreen-toggle" title="Plein écran"><i class="fa-solid fa-expand"></i></button>
+    <iframe src="index_map.html"></iframe>
 </div>
 
 <script>

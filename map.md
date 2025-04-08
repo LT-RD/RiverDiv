@@ -71,44 +71,8 @@ layout: default
         margin: 0;
         padding: 0;
     }
-
-#fullscreen-toggle {
-    position: absolute;
-    top: 50px;
-    right: 50px;
-    z-index: 9999;
-    padding: 8px 10px;
-    background: rgba(255, 255, 255, 0.8);
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    transition: background 0.3s;
-}
-
-#fullscreen-toggle:hover {
-    background: rgba(255, 255, 255, 1);
-}
 </style>
 
 <div class="map-container">
-    <button id="fullscreen-toggle" title="Plein écran"><i class="fa-solid fa-expand"></i></button>
     <iframe src="index_map.html"></iframe>
 </div>
-
-<script>
-    const fullscreenBtn = document.getElementById('fullscreen-toggle');
-    const mapContainer = document.querySelector('.map-container');
-
-    fullscreenBtn.addEventListener('click', () => {
-        if (!document.fullscreenElement) {
-            mapContainer.requestFullscreen().catch(err => {
-                alert(`Erreur lors du passage en plein écran : ${err.message}`);
-            });
-        } else {
-            document.exitFullscreen();
-        }
-    });
-</script>
-

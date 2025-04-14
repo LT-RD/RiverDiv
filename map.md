@@ -48,31 +48,27 @@ layout: default
 
 <h1 class="translatable" data-key="map2">Carte interactive</h1>
 
-<style>
-    /* La carte prend toute la largeur et une bonne hauteur */
-    .map-container {
-        display: block
-        width: 80vw; /* Prend toute la largeur de la fenêtre */
-        height: 90vh; /* Hauteur de 90% de la fenêtre */
-        margin: 0 auto;
-        padding: 0;
-        border: none;
-        overflow: hidden;
-    }
+<!-- Bouton pour afficher la carte -->
+<button id="open-map-btn">🗺️ Afficher la carte</button>
 
-    .map-container iframe {
-        width: 100%;
-        height: 100%;
-        border: none;
-    }
-
-    /* Supprime les marges sur body pour un vrai plein écran */
-    body {
-        margin: 0;
-        padding: 0;
-    }
-</style>
-
-<div class="map-container">
-    <iframe src="index_map.html"></iframe>
+<!-- Conteneur de la carte, caché par défaut -->
+<div id="map-modal" class="hidden">
+    <div class="map-modal-content">
+        <button id="close-map-btn">❌ Fermer</button>
+        <iframe src="index_map.html"></iframe>
+    </div>
 </div>
+
+<script>
+    const openBtn = document.getElementById('open-map-btn');
+    const closeBtn = document.getElementById('close-map-btn');
+    const modal = document.getElementById('map-modal');
+
+    openBtn.addEventListener('click', () => {
+        modal.classList.remove('hidden');
+    });
+
+    closeBtn.addEventListener('click', () => {
+        modal.classList.add('hidden');
+    });
+</script>

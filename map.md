@@ -58,17 +58,3 @@ layout: default
         <iframe src="index_map.html"></iframe>
     </div>
 </div>
-
-<script>
-    const openBtn = document.getElementById('open-map-btn');
-    const closeBtn = document.getElementById('close-map-btn');
-    const modal = document.getElementById('map-modal');
-
-    openBtn.addEventListener('click', () => {
-        modal.classList.remove('hidden');
-    });
-
-    closeBtn.addEventListener('click', () => {
-        modal.classList.add('hidden');
-    });
-</script>

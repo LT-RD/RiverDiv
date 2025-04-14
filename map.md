@@ -48,13 +48,100 @@ layout: default
 
 <h1 class="translatable" data-key="map2">Carte interactive</h1>
 
-<!-- Bouton pour ouvrir la carte -->
-<button id="open-map-btn">🗺️ Afficher la carte</button>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Carte interactive</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
 
-<!-- Modal contenant la carte (caché au départ) -->
-<div id="map-modal">
-  <div class="map-modal-content">
-    <button id="close-map-btn">❌ Fermer</button>
-    <iframe src="index_map.html" id="map-iframe"></iframe>
+    /* Bouton d'ouverture */
+    #open-map-btn {
+      margin: 40px auto;
+      display: block;
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    /* La modale contenant la carte */
+    #map-modal {
+      display: none; /* caché par défaut */
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.8);
+      z-index: 9999;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Contenu centré (carte) */
+    .map-modal-content {
+      position: relative;
+      width: 90vw;
+      height: 90vh;
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
+    .map-modal-content iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    /* Bouton pour fermer la modale */
+    #close-map-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 10000;
+      background-color: #fff;
+      border: none;
+      padding: 8px 12px;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 14px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Bouton pour ouvrir la carte -->
+  <button id="open-map-btn">🗺️ Afficher la carte</button>
+
+  <!-- Modale contenant la carte -->
+  <div id="map-modal">
+    <div class="map-modal-content">
+      <button id="close-map-btn">❌ Fermer</button>
+      <iframe src="index_map.html"></iframe>
+    </div>
   </div>
-</div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const openBtn = document.getElementById('open-map-btn');
+      const closeBtn = document.getElementById('close-map-btn');
+      const modal = document.getElementById('map-modal');
+
+      openBtn.addEventListener('click', function () {
+        modal.style.display = 'flex';
+      });
+
+      closeBtn.addEventListener('click', function () {
+        modal.style.display = 'none';
+      });
+    });
+  </script>
+
+</body>
+</html>

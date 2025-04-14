@@ -48,13 +48,13 @@ layout: default
 
 <h1 class="translatable" data-key="map2">Carte interactive</h1>
 
-<!-- Bouton pour afficher la carte -->
+<!-- Bouton pour ouvrir la carte -->
 <button id="open-map-btn">🗺️ Afficher la carte</button>
 
-<!-- Conteneur de la carte, caché par défaut -->
-<div id="map-modal" class="hidden">
-    <div class="map-modal-content">
-        <button id="close-map-btn">❌ Fermer</button>
-        <iframe src="index_map.html"></iframe>
-    </div>
+<!-- Modal contenant la carte (caché au départ) -->
+<div id="map-modal">
+  <div class="map-modal-content">
+    <button id="close-map-btn">❌ Fermer</button>
+    <iframe src="index_map.html" id="map-iframe"></iframe>
+  </div>
 </div>

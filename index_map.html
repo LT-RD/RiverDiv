@@ -138,7 +138,7 @@
     		setTimeout(function () {
         		map.invalidateSize(); // recalcul taille réelle
         		map.fitBounds([[48.91530810586742, 7.6269622457155215], [49.2973306475164, 8.189372275816233]]);
-    		}, 200); // délai pour laisser le temps à la modale ou à l’iframe de s'afficher
+    		}, 1000); // délai pour laisser le temps à la modale ou à l’iframe de s'afficher
 	});
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');

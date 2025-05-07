@@ -133,17 +133,6 @@
     		maxZoom: 28,
     		minZoom: 1
   	});
-  	// Ajout des couches ici
-  	var couche = L.geoJSON(geojsonData).addTo(map); // par exemple
-  	// Attendre le message depuis la page principale
-  	window.addEventListener('message', function (e) {
-    		if (e.data === 'carteVisible') {
-      			setTimeout(() => {
-        			map.invalidateSize();
-       			 	map.fitBounds(couche.getBounds()); // recentre sur les données
-      			}, 100); // léger délai pour que tout s’affiche bien
-    		}
-  	});
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -302,6 +291,17 @@
         });
         bounds_group.addLayer(layer_BV_2);
         map.addLayer(layer_BV_2);
+		
+  	// Attendre le message depuis la page principale
+  	window.addEventListener('message', function (e) {
+    		if (e.data === 'carteVisible') {
+      			setTimeout(() => {
+        			map.invalidateSize();
+       			 	map.fitBounds(layer_BV_2.getBounds()); // recentre sur les données
+      			}, 100); // léger délai pour que tout s’affiche bien
+    		}
+  	});		
+		
         function pop_Hydro_3(feature, layer) {
             layer.on({
                 mouseout: function(e) {

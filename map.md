@@ -60,17 +60,23 @@ layout: default
   </div>
 
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const openBtn = document.getElementById('open-map-btn');
-      const closeBtn = document.getElementById('close-map-btn');
-      const modal = document.getElementById('map-modal');
+  document.addEventListener('DOMContentLoaded', function () {
+    const openBtn = document.getElementById('open-map-btn');
+    const closeBtn = document.getElementById('close-map-btn');
+    const modal = document.getElementById('map-modal');
+    const iframe = modal.querySelector('iframe');
 
-      openBtn.addEventListener('click', function () {
-        modal.style.display = 'flex';
-      });
+    openBtn.addEventListener('click', function () {
+      modal.style.display = 'flex';
 
-      closeBtn.addEventListener('click', function () {
-        modal.style.display = 'none';
-      });
+      // Quand la modale est visible, envoie un message à l'iframe
+      setTimeout(() => {
+        iframe.contentWindow.postMessage('carteVisible', '*');
+      }, 300); // attendre que l’iframe soit bien visible
     });
-  </script>
+
+    closeBtn.addEventListener('click', function () {
+      modal.style.display = 'none';
+    });
+  });
+</script>

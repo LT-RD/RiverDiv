@@ -48,35 +48,4 @@ layout: default
 
 <h1 class="translatable" data-key="map2">Carte interactive</h1>
 
-  <!-- Bouton pour ouvrir la carte -->
-  <button id="open-map-btn">🗺️ Afficher la carte</button>
-
-  <!-- Modale contenant la carte -->
-  <div id="map-modal">
-    <div class="map-modal-content">
-      <button id="close-map-btn">❌ Fermer</button>
-      <iframe src="index_map.html"></iframe>
-    </div>
-  </div>
-
-  <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const openBtn = document.getElementById('open-map-btn');
-    const closeBtn = document.getElementById('close-map-btn');
-    const modal = document.getElementById('map-modal');
-    const iframe = modal.querySelector('iframe');
-
-    openBtn.addEventListener('click', function () {
-      modal.style.display = 'flex';
-
-      // Quand la modale est visible, envoie un message à l'iframe
-      setTimeout(() => {
-        iframe.contentWindow.postMessage('carteVisible', '*');
-      }, 300); // attendre que l’iframe soit bien visible
-    });
-
-    closeBtn.addEventListener('click', function () {
-      modal.style.display = 'none';
-    });
-  });
-</script>
+<iframe src="/index_map.html" width="100%" height="600" frameborder="0"></iframe>

@@ -48,4 +48,4 @@ layout: default
 
 <h1 class="translatable" data-key="map2">Carte interactive</h1>
 
-<iframe src="/index_map.html" width="100%" height="600" frameborder="0"></iframe>
+<iframe src="index_map.html" width="100%" height="600" frameborder="0"></iframe>

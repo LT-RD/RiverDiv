@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -68,50 +68,6 @@
         <script src="data/Amphipodes_21.js"></script>
         <script src="data/EPT_22.js"></script>
 	<script src="js/custom.js"></script>
-
-	<style>
-	.fullscreen-btn {
-    background: white;
-    border: none;
-    padding: 8px;
-    font-size: 16px;
-    cursor: pointer;
-    line-height: 1;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-}
-
-.fullscreen-btn:hover {
-    background: #f0f0f0;
-}
-	</style>
-	
-	<script>
-    // Création d'un contrôle personnalisé
-    const fullscreenControl = L.control({ position: 'topleft' });
-
-    fullscreenControl.onAdd = function (map) {
-        const btn = L.DomUtil.create('button', 'leaflet-bar fullscreen-btn');
-        btn.title = "Passer en plein écran";
-        btn.innerHTML = "🖥️";
-
-        L.DomEvent.on(btn, 'click', function (e) {
-            L.DomEvent.stopPropagation(e);
-            L.DomEvent.preventDefault(e);
-
-            if (!document.fullscreenElement) {
-                document.documentElement.requestFullscreen();
-            } else {
-                document.exitFullscreen();
-            }
-        });
-
-        return btn;
-    };
-
-    fullscreenControl.addTo(map);
-</script>
-
         <script>
         var highlightLayer;
         function highlightFeature(e) {
@@ -128,11 +84,9 @@
               });
             }
         }
-  	var map = L.map('map', {
-    		zoomControl: false,
-    		maxZoom: 28,
-    		minZoom: 1
-  	});
+        var map = L.map('map', {
+            zoomControl:false, maxZoom:28, minZoom:1
+        }).fitBounds([[48.91530810586742,7.6269622457155215],[49.2973306475164,8.189372275816233]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -291,17 +245,6 @@
         });
         bounds_group.addLayer(layer_BV_2);
         map.addLayer(layer_BV_2);
-		
-  	// Attendre le message depuis la page principale
-  	window.addEventListener('message', function (e) {
-    		if (e.data === 'carteVisible') {
-      			setTimeout(() => {
-        			map.invalidateSize();
-       			 	map.fitBounds(layer_BV_2.getBounds()); // recentre sur les données
-      			}, 100); // léger délai pour que tout s’affiche bien
-    		}
-  	});		
-		
         function pop_Hydro_3(feature, layer) {
             layer.on({
                 mouseout: function(e) {

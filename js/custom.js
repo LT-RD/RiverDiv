@@ -17,35 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         console.log("Tous les plugins sont chargés !");
 
-        // 1️⃣ Ajout de la mini-carte
-        var miniMapLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            minZoom: 0, maxZoom: 13, attribution: '© OpenStreetMap'
-        });
-
-        var miniMap = new L.Control.MiniMap(miniMapLayer, { 
-    		toggleDisplay: true, 
-    		position: "bottomleft" // Déplace la MiniMap en bas à gauche
-	}).addTo(map);
-
-
-        // 2️⃣ Affichage des coordonnées de la souris
-        var coordDiv = document.createElement("div");
-        coordDiv.id = "coordinates";
-        coordDiv.style.position = "absolute";
-        coordDiv.style.bottom = "180px";
-        coordDiv.style.left = "10px";
-        coordDiv.style.background = "white";
-        coordDiv.style.padding = "5px";
-        coordDiv.style.border = "1px solid gray";
-        coordDiv.style.zIndex = "1000";
-        coordDiv.innerHTML = "Déplacez la souris pour voir les coordonnées";
-        document.body.appendChild(coordDiv);
-
-        map.on('mousemove', function (e) {
-            document.getElementById('coordinates').innerHTML = `Lat: ${e.latlng.lat.toFixed(5)}, Lng: ${e.latlng.lng.toFixed(5)}`;
-        });
-
-        // 3️⃣ Outil de dessin
+        // Outil de dessin
         var drawnItems = new L.FeatureGroup();
         map.addLayer(drawnItems);
 

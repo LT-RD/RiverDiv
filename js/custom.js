@@ -4,11 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
             console.error("Leaflet n'est pas chargé !");
             return;
         }
-        if (typeof L.Control.MiniMap === 'undefined') {
-            console.warn("MiniMap n'est pas encore chargé... Retente dans 500ms.");
-            setTimeout(initMap, 500);
-            return;
-        }
         if (typeof L.Control.Draw === 'undefined') {
             console.warn("Leaflet Draw n'est pas encore chargé... Retente dans 500ms.");
             setTimeout(initMap, 500);

@@ -59,17 +59,17 @@ layout: default
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="ache">Achètes</p></div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="ach">Achètes</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;"><p class="translatable" data-key="ache2">De la classe des annélidés, les sangsues disposent de ventouses et sont hermaphrodites. Certaines espèces sont hématophages. Les achètes peuvent être considérés comme polluo-résistants notamment du fait de leur résistance à des conditions d’hypoxie. Cela fait souvent de ces derniers les seuls prédateurs là où la pollution organique est élevée.
+            <p style="text-align: justify;"><p class="translatable" data-key="ach2">De la classe des annélidés, les sangsues disposent de ventouses et sont hermaphrodites. Certaines espèces sont hématophages. Les achètes peuvent être considérés comme polluo-résistants notamment du fait de leur résistance à des conditions d’hypoxie. Cela fait souvent de ces derniers les seuls prédateurs là où la pollution organique est élevée.
 Prédatrices ou parasites, les achètes peuvent se disperser par le biais du courant.</p></p>
             <img src="images/ACH.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="amphi">Amphipodes</p></div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="amph">Amphipodes</p></div>
         <div class="faq-answer">
-            <p style="text-align: justify;"><p class="translatable" data-key="amphi2">Les amphipodes se caractérisent notamment par l’aplatissement latéral de leurs corps ainsi que par le fait qu’ils soient détritivores.
+            <p style="text-align: justify;"><p class="translatable" data-key="amph2">Les amphipodes se caractérisent notamment par l’aplatissement latéral de leurs corps ainsi que par le fait qu’ils soient détritivores.
 Capables de coloniser tous les types d’habitats, ils sont souvent la proie de poissons et d’oiseaux. Le parasitage par des larves d’acantocéphales est également courant (forme une tache orangée). Enfin, les amphipodes sont tolérants face à la pollution.</p></p>
             <img src="images/Gammarus.jpg" alt="Logo 1" width="250" class="logo">
         </div>

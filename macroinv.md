@@ -48,7 +48,7 @@ layout: default
 
 <h1 class="translatable" data-key="macroinv2">Galerie des macro-invertébrés</h1>
 
-<p class="translatable" data-key="text2">Cette partie est actuellement en construction !</p>
+<p class="translatable" data-key="text2">Dans cette partie, vous trouverez les différents macro-invertébrés recensés au sein de l'atlas. De courtes descriptions et quelques photos vous permettront d'en apprendre plus à leur sujet.</p>
 
 <section id="faq">
     <div class="faq-item">

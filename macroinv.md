@@ -53,15 +53,14 @@ layout: default
 <section id="faq">
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="acan">Acantocéphales</p></div>
-        <div class="faq-answer" style="text-align: justify;><p class="translatable" data-key="acan2">Les acantocéphales, aussi connus sous le nom de vers à tête épineuse, sont des parasites capables de s’accrocher à leurs hôtes. N’ayant pas de vie libre, ils parasitent les arthropodes à l’état juvénile puis contaminent les vertébrés à l’âge adulte. Ces derniers sont contaminés en mangeant les hôtes intermédiaires. C’est en modifiant le comportement des hôtes intermédiaires pour les forcer à se faire manger que les hôtes finaux seront contaminés.</p>
+        <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="acan2">Les acantocéphales, aussi connus sous le nom de vers à tête épineuse, sont des parasites capables de s’accrocher à leurs hôtes. N’ayant pas de vie libre, ils parasitent les arthropodes à l’état juvénile puis contaminent les vertébrés à l’âge adulte. Ces derniers sont contaminés en mangeant les hôtes intermédiaires. C’est en modifiant le comportement des hôtes intermédiaires pour les forcer à se faire manger que les hôtes finaux seront contaminés.</p>
             <img src="images/ACAN.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="ach">Achètes</p></div>
-        <div class="faq-answer" style="text-align: justify;>
-            <p style="text-align: justify;"><p class="translatable" data-key="ach2">De la classe des annélidés, les sangsues disposent de ventouses et sont hermaphrodites. Certaines espèces sont hématophages. Les achètes peuvent être considérés comme polluo-résistants notamment du fait de leur résistance à des conditions d’hypoxie. Cela fait souvent de ces derniers les seuls prédateurs là où la pollution organique est élevée.
-Prédatrices ou parasites, les achètes peuvent se disperser par le biais du courant.</p></p>
+        <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="ach2">De la classe des annélidés, les sangsues disposent de ventouses et sont hermaphrodites. Certaines espèces sont hématophages. Les achètes peuvent être considérés comme polluo-résistants notamment du fait de leur résistance à des conditions d’hypoxie. Cela fait souvent de ces derniers les seuls prédateurs là où la pollution organique est élevée.
+Prédatrices ou parasites, les achètes peuvent se disperser par le biais du courant.</p>
             <img src="images/ACH.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>

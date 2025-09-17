@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "partners": "Partenaires du projet",
                 "macroinv2": "Galerie des macro-invertébrés",
                 "text2": "Dans cette partie, vous trouverez les différents macro-invertébrés recensés au sein de l'atlas. De courtes descriptions et quelques photos vous permettront d'en apprendre plus à leur sujet.",
-                "acan": "Acantocphales",
+                "acan": "Acantocéphales",
                 "acan2": "Les acantocéphales, aussi connus sous le nom de vers à tête épineuse, sont des parasites capables de s’accrocher à leurs hôtes. N’ayant pas de vie libre, ils parasitent les arthropodes à l’état juvénile puis contaminent les vertébrés à l’âge adulte. Ces derniers sont contaminés en mangeant les hôtes intermédiaires. C’est en modifiant le comportement des hôtes intermédiaires pour les forcer à se faire manger que les hôtes finaux seront contaminés.",
                 "ach": "Achètes",
                 "ach2": "De la classe des annélidés, les sangsues disposent de ventouses et sont hermaphrodites. Certaines espèces sont hématophages. Les achètes peuvent être considérés comme polluo-résistants notamment du fait de leur résistance à des conditions d’hypoxie. Cela fait souvent de ces derniers les seuls prédateurs là où la pollution organique est élevée. Prédatrices ou parasites, les achètes peuvent se disperser par le biais du courant.",

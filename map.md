@@ -51,8 +51,7 @@ layout: default
 <section id="faq">
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="tuto">Tutoriel vidéo</p></div>
-        <div class="faq-answer">
-            <p style="text-align: justify;"><p class="translatable" data-key="tuto2">Ici, vous trouverez un tutoriel vidéo pour vous permettre de comprendre le fonctionnement de la carte interactive.</p></p>
+        <div class="faq-answer" style="text-align: justify;><p class="translatable" data-key="tuto2">Ici, vous trouverez un tutoriel vidéo pour vous permettre de comprendre le fonctionnement de la carte interactive.</p>
         </div>
     </div>
 </section>

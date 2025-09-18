@@ -61,4 +61,6 @@ layout: default
     </div>
 </section>
 
+<h3>_______________________________________________________________________</h3>
+
 <iframe src="index_map.html" width="100%" height="600" frameborder="0"></iframe>

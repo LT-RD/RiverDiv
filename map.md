@@ -48,19 +48,13 @@ layout: default
 
 <h1 class="translatable" data-key="map2">Carte interactive</h1>
 
+<iframe src="index_map.html" width="100%" height="600" frameborder="0"></iframe>
+
+
 <section id="faq">
-    <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="test">Test !</p></div>
-        <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="test2">Test.</p>
-        </div>
-    </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="tuto">Tutoriel vidéo</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="tuto2">Ici, vous trouverez un tutoriel vidéo pour vous permettre de comprendre le fonctionnement de la carte interactive.</p>
         </div>
     </div>
 </section>
-
-<h3>_______________________________________________________________________</h3>
-
-<iframe src="index_map.html" width="100%" height="600" frameborder="0"></iframe>

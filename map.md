@@ -51,14 +51,13 @@ layout: default
 <iframe src="index_map.html" width="100%" height="600" frameborder="0"></iframe>
 
 
-<section id="faq">
+
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="tuto">Tutoriel vidéo</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="tuto2">Ici, vous trouverez un tutoriel vidéo pour vous permettre de comprendre le fonctionnement de la carte interactive.</p>
         </div>
     </div>
-</section>
 
-<video controls width="600">
+<video controls style="max-width:100%; height:auto; display:block; margin:auto;">
   <source src="RD tutorial.mp4" type="video/mp4">
 </video>

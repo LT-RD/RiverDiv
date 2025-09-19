@@ -58,3 +58,7 @@ layout: default
         </div>
     </div>
 </section>
+
+<video controls width="600">
+  <source src="RD tutorial.mp4" type="video/mp4">
+</video>

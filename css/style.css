@@ -166,6 +166,8 @@
     width: 100%; /* Prend toute la largeur disponible */
     max-width: 100%; /* Empêche de dépasser la largeur maximale du parent */
     height: 60px;         /* Fixe la hauteur de l'encadré */
+    position: relative;
+    z-index: 10;
 }
 
  .faq-answer {
@@ -192,4 +194,9 @@
   .faq-answer.open {
     display: block;
     opacity: 1;
+}
+
+iframe {
+  position: relative;
+  z-index: 1;
 }

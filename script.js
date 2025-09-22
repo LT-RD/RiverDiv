@@ -97,6 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "tricho": "Trichoptères",
                 "tricho2": "Les trichoptères forment un groupe dont les larves et les nymphes sont aquatiques. De nombreuses larves sont dites “à étui” car elles construisent des fourreaux divers pour se protéger. Certaines larves peuvent, quant à elle, être libres et errantes ou fixes. Les trichoptères peuvent être des filtreurs, des racleurs ou des prédateurs. Les adultes sont souvent la proie des oiseaux et des chiroptères. Enfin, les trichoptères sont en général sensibles à la pollution.",
                 "map2": "Carte interactive",
+                "tuto2": "Ici, vous trouverez un tutoriel vidéo pour vous permettre de comprendre le fonctionnement de la carte interactive.",
                 "dlpdf": "Télécharger le PDF",
                 "textpdf": "Ici, vous pouvez télécharger une version PDF de l’atlas :",
                 "linkpdf": "Télécharger l’atlas en PDF",
@@ -173,6 +174,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "tricho": "Trichoptera",
                 "tricho2": "Caddisflies form a group whose larvae and nymphs are aquatic. Many larvae are known as “case-bearers” because they build various cases to protect themselves. Some larvae, on the other hand, may be free-swimming and wandering or sessile. Caddisflies can be filter feeders, scrapers, or predators. Adults are often preyed upon by birds and bats. Finally, caddisflies are generally sensitive to pollution.",
                 "map2": "Interactive map",
+                "tuto2": "Here you will find a video tutorial to help you understand how the interactive map works.",
                 "dlpdf": "Download PDF",
                 "textpdf": "Here you can download a PDF version of the atlas :",
                 "linkpdf": "Download the atlas in PDF",
@@ -249,6 +251,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "tricho": "Trichoptera",
                 "tricho2": "Die Köcherfliegen bilden eine Gruppe, deren Larven und Puppen im Wasser leben. Viele Larven werden als „Hüllenlarven” bezeichnet, da sie zum Schutz verschiedene Hüllen bauen. Einige Larven können hingegen frei und wandernd oder feststehend sein. Köcherfliegen können Filterfresser, Schaber oder Raubtiere sein. Die ausgewachsenen Tiere sind oft Beute für Vögel und Fledermäuse. Schließlich sind Köcherfliegen im Allgemeinen empfindlich gegenüber Umweltverschmutzung.",
                 "map2": "Interaktive Karte",
+                "tuto2": "Hier finden Sie ein Video-Tutorial, das Ihnen die Funktionsweise der interaktiven Karte erklärt."
                 "dlpdf": "PDF herunterladen",
                 "textpdf": "Hier können Sie eine PDF-Version des Atlas herunterladen :",
                 "linkpdf": "Atlas als PDF herunterladen",

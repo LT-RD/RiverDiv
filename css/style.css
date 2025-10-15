@@ -1,4 +1,4 @@
-/* === Carrousel Cayman fluide et sans bande noire === */
+/* === Carrousel Cayman fluide, sans coupure === */
 
 .page-header {
   position: relative;
@@ -10,7 +10,7 @@
   justify-content: center;
 }
 
-/* Carrousel en fond */
+/* Carrousel */
 .carousel {
   position: absolute;
   top: 0;
@@ -19,27 +19,25 @@
   height: 100%;
   overflow: hidden;
   z-index: 1;
-  background: #000;
 }
 
-/* Ruban d'images défilantes */
+/* Ruban continu */
 .carousel .slides {
   display: flex;
   flex-wrap: nowrap;
-  width: fit-content;
   height: 100%;
-  animation: slideContinuous 40s linear infinite;
+  animation: slideInfinite 60s linear infinite;
 }
 
 .carousel img {
-  flex-shrink: 0; /* empêche les images de se compresser */
-  width: 100vw;   /* chaque image occupe exactement la largeur de l’écran */
+  flex-shrink: 0;
+  width: 100vw;
   height: 100%;
-  object-fit: cover;  /* remplit sans bande noire, sans zoom excessif */
+  object-fit: cover;
   object-position: center;
 }
 
-/* Texte par-dessus */
+/* Texte au-dessus */
 .header-overlay {
   position: relative;
   z-index: 2;
@@ -64,10 +62,10 @@
   opacity: 0.9;
 }
 
-/* Animation continue, sans saut */
-@keyframes slideContinuous {
+/* Animation continue, double ruban */
+@keyframes slideInfinite {
   0%   { transform: translateX(0); }
-  100% { transform: translateX(-300vw); } /* 4 images : défilement de 3 largeurs */
+  100% { transform: translateX(-300vw); } /* la moitié des 6 images = boucle invisible */
 }
 
 .header {

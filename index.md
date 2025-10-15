@@ -47,13 +47,10 @@ lang: fr
 });
 </script>
 
-<p align="left">
+<div style="display: flex; justify-content: space-between; align-items: center;">
     <img src="images/RD.png" alt="Logo 1" width="180">
-</p>
-
-<p align="right">
     <img src="images/Interreg_Rhin_superieur.jpg" alt="Logo 2" width="280">
-</p>
+</div>
 
 <h1 class="translatable" data-key="welcome">Bienvenue sur l’Atlas RiverDiv !</h1>
 

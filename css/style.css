@@ -1,5 +1,10 @@
 /* === Carrousel Cayman fluide, sans coupure === */
 
+/* Cache le lien "Skip to content" */
+a#skip-to-content {
+  display: none;
+}
+
 .page-header {
   position: relative;
   overflow: hidden;

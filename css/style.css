@@ -1,17 +1,16 @@
-/* === Carrousel header personnalisé, compatible Cayman === */
+/* === Carrousel Cayman fluide et lent === */
 
 .page-header {
   position: relative;
   overflow: hidden;
-  height: 280px; /* hauteur similaire au bandeau Cayman */
-  color: #fff;
+  height: 300px;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Conteneur du carrousel */
+/* Carrousel en fond */
 .carousel {
   position: absolute;
   top: 0;
@@ -20,30 +19,34 @@
   height: 100%;
   overflow: hidden;
   z-index: 1;
+  background: #000;
 }
 
-/* Bande d’images défilantes */
+/* Bande de slides continue */
 .carousel .slides {
   display: flex;
-  width: 300%;
+  width: 400%; /* car 4 images */
   height: 100%;
-  animation: slide 120s infinite;
+  animation: slideContinuous 40s linear infinite; /* défilement lent et régulier */
 }
 
+/* Images du carrousel */
 .carousel img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* garde la proportion, sans zoom excessif */
+  object-fit: contain; /* garde l’image entière, sans zoom */
   object-position: center;
-  filter: brightness(75%); /* légèrement assombri pour lisibilité du texte */
+  background-color: #000;
 }
 
-/* Texte centré et lisible */
+/* Texte au-dessus du carrousel */
 .header-overlay {
   position: relative;
   z-index: 2;
   width: 100%;
   text-align: center;
+  color: white;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6);
 }
 
 .header-overlay .project-name {
@@ -51,7 +54,6 @@
   font-weight: 700;
   font-size: 2.5em;
   margin: 0.2em 0;
-  color: #fff;
 }
 
 .header-overlay .project-tagline {
@@ -59,18 +61,13 @@
   font-weight: 400;
   font-size: 1.2em;
   margin: 0;
-  color: #eaeaea;
+  opacity: 0.9;
 }
 
-/* Animation fluide */
-@keyframes slide {
+/* Animation continue */
+@keyframes slideContinuous {
   0%   { transform: translateX(0); }
-  30%  { transform: translateX(0); }
-  33%  { transform: translateX(-100%); }
-  63%  { transform: translateX(-100%); }
-  66%  { transform: translateX(-200%); }
-  96%  { transform: translateX(-200%); }
-  100% { transform: translateX(0); }
+  100% { transform: translateX(-75%); } /* 4 images -> défile sur 3 longueurs pour revenir au début */
 }
 
 .header {

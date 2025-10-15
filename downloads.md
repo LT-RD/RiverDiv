@@ -28,10 +28,10 @@ layout: default
 <!-- Conteneur du menu rétractable -->
 <div id="menu" class="tab-container">
     <a href="index" class="tab-button"><i class="fa-solid fa-house"></i> Accueil</a>
-    <a href="macroinv" class="tab-button"><i class="fa-solid fa-bug"></i> Macro invertébrés</a>
-    <a href="map" class="tab-button"><i class="fa-solid fa-map"></i> Carte Interactive</a>
-    <a href="downloads" class="tab-button"><i class="fa-solid fa-floppy-disk"></i> Téléchargement</a>
-    <a href="contacts" class="tab-button"><i class="fa-solid fa-address-book"></i> Contacts</a>
+    <a href="macroinv" class="tab-button"><i class="fa-solid fa-bug"></i> Galerie des macroinvertébrés de la Wieslauter</a>
+    <a href="map" class="tab-button"><i class="fa-solid fa-map"></i> L’atlas en cartographie interactive</a>
+    <a href="downloads" class="tab-button"><i class="fa-solid fa-floppy-disk"></i> Télécharger l’atlas en format pdf</a>
+    <a href="contacts" class="tab-button"><i class="fa-solid fa-address-book"></i> Equipe du projet Interreg RiverDiv – Volet « Biodiversité et zones refuges »</a>
 </div>
 
 <script>

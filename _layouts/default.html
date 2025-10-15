@@ -22,11 +22,12 @@
           <img src="images/wieslauter1.jpg" alt="wieslauter1">
           <img src="images/wieslauter2.jpg" alt="wieslauter2">
           <img src="images/wieslauter3.jpg" alt="wieslauter3">
+          <img src="images/wieslauter1.jpg" alt="wieslauter1bis">
         </div>
       </div>
 
       <div class="header-overlay">
-        <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <h1 class="project-name">{{ site.title }}</h1>
         <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
         {% if site.github.is_project_page %}
           <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>

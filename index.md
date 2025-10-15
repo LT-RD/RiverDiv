@@ -47,6 +47,8 @@ lang: fr
 });
 </script>
 
+<h3> </h3>
+
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <img src="images/RD.png" alt="Logo 1" width="180">
     <img src="images/Interreg_Rhin_superieur.jpg" alt="Logo 2" width="280">

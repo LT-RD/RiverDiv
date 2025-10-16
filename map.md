@@ -46,7 +46,7 @@ layout: default
 });
 </script>
 
-<h1 class="translatable" data-key="map2">Carte interactive</h1>
+<h1 class="translatable" data-key="map2">L'atlas en cartographie interactive</h1>
 
 <iframe src="index_map.html" width="100%" height="600" frameborder="0"></iframe>
 

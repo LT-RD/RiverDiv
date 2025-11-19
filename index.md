@@ -33,7 +33,7 @@ lang: fr
     <a href="map" class="tab-button"><i class="fa-solid fa-map"></i> L’atlas en cartographie interactive</a>
     <a href="downloads" class="tab-button"><i class="fa-solid fa-floppy-disk"></i> Télécharger l’atlas en format pdf</a>
     <a href="contacts" class="tab-button"><i class="fa-solid fa-address-book"></i> Equipe du projet Interreg RiverDiv – Volet « Biodiversité et zones refuges »</a>
-    <a href="mentleg" class="tab-button"><i class="fa-solid fa-scale-balanced"></i></i> Mentions légales</a>
+    <a href="mentions-legales" class="tab-button"><i class="fa-solid fa-scale-balanced"></i> Mentions légales</a>
 </div>
 
 <script>

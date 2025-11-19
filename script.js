@@ -102,7 +102,30 @@ document.addEventListener("DOMContentLoaded", function() {
                 "LT": "Ingénieur d’études ENGEES - LIVE",
                 "ML": "Doctorant ENGEES - LIVE",
                 "CS": "Enseignante-chercheure ENGEES - LIVE",
-                "JNB": "Professeur ENGEES - LIVE"        
+                "JNB": "Professeur ENGEES - LIVE",
+                "mentions-legales": "Mentions légales",
+                "mentleg": "Mentions légales",
+                "mentleg1": "Ces pages web sont proposées par l'équipe du projet Interreg RiverDiv – Volet « Biodiversité et zones refuges », basée à l’Ecole Nationale du Génie de l’Eau et de l’Environnement, rattachée au laboratoire Image Ville Environnement de Strasbourg.",
+                "resp": "Responsable du contenu et de la plateforme",
+                "conc": "Conception du site web",
+                "regl": "Règlement général sur la protection des données (RGPD)",
+                "pol": "Politique de confidentialité",
+                "data": "Toutes les données présentes sur ce site sont traitées conformément à la législation en vigueur (RGPD/DSGVO). Vous pouvez utiliser le site sans fournir ni enregistrer de données personnelles. Si des données personnelles sont demandées, elles ne seront utilisées que pour l’objectif spécifique ayant été mentionné et uniquement avec votre consentement. Vos données sont ici respectées et ne seront jamais transmises à un tiers.",
+                "cont": "Contact",
+                "conttext": "Si vous contactez par email ou via un formulaire de contact sur ce site, les informations reçues seront conservées dans le cadre d’échanges ultérieurs. Ces informations seront exclusivement utilisées pour la communication avec vous et ne seront pas transmises à des tiers.",
+                "connex": "Enregistrement des connexions",
+                "heber": "Le fournisseur de l’hébergement du site (github.com) enregistre les connexions au site. Cela n'inclut que la date et le nombre de connexions.",
+                "traf": "Analyse de trafic web",
+                "traftext": "Nous n’utilisons aucun outil d’analyse web pour suivre votre visite sur notre site.",
+                "droits": "Vos droits",
+                "droitstext": "Vous avez le droit de demander des informations, des corrections ou la suppression de vos données personnelles que nous pourrions avoir enregistrées, à tout moment. Vous pouvez nous contacter à ce sujet en utilisant les coordonnées fournies dans l'onglet correspondant.",
+                "author": "Droits d’auteur",
+                "authortext": "Ce site contient des liens vers des contenus protégés par le droit d’auteur, des marques déposées ou d’autres droits de propriété intellectuelle. En utilisant notre site, vous reconnaissez que les contenus et informations – y compris, mais sans s’y limiter, les textes, sons, photographies, vidéos, graphiques ou autres éléments – peuvent être protégés. Le contenu et/ou les liens disponibles sur ce site ne constituent en aucun cas des conseils juridiques, politiques ou autres. Vous êtes autorisé à utiliser le contenu de ce site, en tout ou partie, à des fins personnelles ou éducatives, mais pas à des fins commerciales, à condition de conserver toutes les mentions de droits d’auteur et autres avis de propriété, et de créditer correctement notre site et les auteurs respectifs. Vous ne pouvez pas modifier, copier, reproduire, republier, téléverser, publier, transmettre ou distribuer le contenu de ce site, sauf s’il s’agit de documents publics tels que des traités ou conventions.",
+                "photos": "Les photographies proviennent majoritairement du site web Perla (https://www.perla.developpement-durable.gouv.fr/).",
+                "error": "Erreurs",
+                "errortext": "Bien que nous nous efforcions d’être exacts, nous ne garantissons pas l’exactitude, la fiabilité, la disponibilité ou la pertinence des informations contenues sur ce site. Les pages sont fournies « en l’état », sans aucune garantie. Nous ne garantissons pas que ce site soit exempt d’interruptions ou d’erreurs, ni que les défauts seront corrigés, ou que le serveur soit exempt de virus ou de composants nuisibles. Des modifications ou améliorations peuvent être apportées au site à tout moment.",
+                "links": "Liens",
+                "linkstext": "Nous ne garantissons pas non plus le contenu ou la qualité des informations contenues dans les sites vers lesquels nous établissons des liens. Ces sites ne sont pas sous notre contrôle, et nous ne sommes pas responsables de leur contenu ni des mises à jour qui y sont apportées."
             },
             "en": {
                 "menu": "Menu",
@@ -176,7 +199,30 @@ document.addEventListener("DOMContentLoaded", function() {
                 "LT": "Study engineer ENGEES - LIVE",
                 "ML": "PhD student ENGEES - LIVE",
                 "CS": "Teacher-researcher ENGEES - LIVE",
-                "JNB": "Professor ENGEES - LIVE"        
+                "JNB": "Professor ENGEES - LIVE",
+                "mentions-legales": "Legal notices",
+                "mentleg": "Legal notices",
+                "mentleg1": "These web pages are provided by the Interreg RiverDiv project team – « Biodiversity and Refuge Areas » section, based at the National School of Water and Environmental Engineering, attached to the Image Ville Environnement laboratory in Strasbourg.",
+                "resp": "Content and Platform Manager",
+                "conc": "Website design",
+                "regl": "General Data Protection Regulation (GDPR)",
+                "pol": "Privacy Policy",
+                "data": "All data on this website is processed in accordance with current legislation (GDPR/DSGVO). You can use the website without providing or storing any personal data. If personal data is requested, it will only be used for the specific purpose mentioned and only with your consent. Your data is respected here and will never be passed on to third parties.",
+                "cont": "Contact",
+                "conttext": "If you contact us by email or via a contact form on this website, the information received will be stored for future correspondence. This information will be used exclusively for communication with you and will not be passed on to third parties.",
+                "connex": "Connection logging",
+                "heber": "The website hosting provider (github.com) logs connections to the site. This only includes the date and number of connections.",
+                "traf": "Web traffic analysis",
+                "traftext": "We do not use any web analytics tools to track your visit to our site.",
+                "droits": "Your rights",
+                "droitstext": "You have the right to request information, corrections, or deletion of your personal data that we may have stored at any time. You can contact us about this using the contact details provided in the corresponding tab.",
+                "author": "Copyright",
+                "authortext": "This site contains links to content protected by copyright, trademarks, or other intellectual property rights. By using our site, you acknowledge that the content and information—including, but not limited to, text, sound, photographs, videos, graphics, or other elements—may be protected. The content and/or links available on this site do not constitute legal, political, or other advice. You are authorized to use the content of this site, in whole or in part, for personal or educational purposes, but not for commercial purposes, provided that you retain all copyright and other proprietary notices and properly credit our site and the respective authors. You may not modify, copy, reproduce, republish, upload, post, transmit, or distribute the content of this site, except in the case of public documents such as treaties or conventions.",
+                "photos": "Most of the photographs come from the Perla website (https://www.perla.developpement-durable.gouv.fr/).",
+                "error": "Errors",
+                "errortext": "Although we strive for accuracy, we do not guarantee the accuracy, reliability, availability, or suitability of the information contained on this site. The pages are provided “as is,” without warranty of any kind. We do not guarantee that this site will be free of interruptions or errors, that defects will be corrected, or that the server is free of viruses or harmful components. Changes or improvements may be made to the site at any time.",
+                "links": "Links",
+                "linkstext": "We also do not guarantee the content or quality of the information contained in the sites to which we provide links. These sites are not under our control, and we are not responsible for their content or any updates made to them."
             },
             "de": {
                 "menu": "Menü",
@@ -250,7 +296,30 @@ document.addEventListener("DOMContentLoaded", function() {
                 "LT": "Studieningenieur ENGEES - LIVE",
                 "ML": "Doktorandin ENGEES - LIVE",
                 "CS": "Lehrende und Forschende ENGEES - LIVE",
-                "JNB": "Professor ENGEES - LIVE"                        
+                "JNB": "Professor ENGEES - LIVE",
+                "mentions-legales": "Rechtliche Hinweise",
+                "mentleg": "Rechtliche Hinweise",
+                "mentleg1": "Diese Webseiten werden vom Team des Interreg-Projekts RiverDiv – Bereich « Biodiversität und Rückzugsgebiete » angeboten, das an der École Nationale du Génie de l’Eau et de l’Environnement (Nationale Hochschule für Wasserbau und Umwelttechnik) angesiedelt ist und dem Labor Image Ville Environnement (Labor für Stadtbild und Umwelt) in Straßburg angehört.",
+                "resp": "Verantwortlich für Inhalt und Plattform",
+                "conc": "Website-Design",
+                "regl": "Datenschutz-Grundverordnung (DSGVO)",
+                "pol": "Datenschutzerklärung",
+                "data": "Alle Daten auf dieser Website werden gemäß den geltenden Rechtsvorschriften (DSGVO) verarbeitet. Sie können die Website nutzen, ohne personenbezogene Daten anzugeben oder zu speichern. Wenn personenbezogene Daten abgefragt werden, werden diese nur für den angegebenen Zweck und nur mit Ihrer Zustimmung verwendet. Ihre Daten werden hier respektiert und niemals an Dritte weitergegeben.",
+                "cont": "Kontact",
+                "conttext": "Wenn Sie uns per E-Mail oder über ein Kontaktformular auf dieser Website kontaktieren, werden die erhaltenen Informationen für den weiteren Austausch gespeichert. Diese Informationen werden ausschließlich für die Kommunikation mit Ihnen verwendet und nicht an Dritte weitergegeben.",
+                "connex": "Aufzeichnung von Verbindungen",
+                "heber": "Der Hosting-Anbieter der Website (github.com) protokolliert die Zugriffe auf die Website. Dabei werden lediglich das Datum und die Anzahl der Zugriffe erfasst.",
+                "traf": "Analyse des Webverkehrs",
+                "traftext": "Wir verwenden keine Webanalyse-Tools, um Ihren Besuch auf unserer Website zu verfolgen.",
+                "droits": "Ihre Rechte",
+                "droitstext": "Sie haben jederzeit das Recht, Auskunft über Ihre bei uns gespeicherten personenbezogenen Daten zu verlangen, diese berichtigen oder löschen zu lassen. Zu diesem Zweck können Sie sich unter Verwendung der auf der entsprechenden Registerkarte angegebenen Kontaktdaten an uns wenden.",
+                "author": "Urheberrechte",
+                "authortext": "Diese Website enthält Links zu Inhalten, die durch Urheberrechte, Markenrechte oder andere Rechte an geistigem Eigentum geschützt sind. Durch die Nutzung unserer Website erkennen Sie an, dass die Inhalte und Informationen – einschließlich, aber nicht beschränkt auf Texte, Töne, Fotos, Videos, Grafiken oder andere Elemente – geschützt sein können. Die auf dieser Website verfügbaren Inhalte und/oder Links stellen in keinem Fall eine rechtliche, politische oder sonstige Beratung dar. Sie sind berechtigt, die Inhalte dieser Website ganz oder teilweise für persönliche oder Bildungszwecke, jedoch nicht für kommerzielle Zwecke zu nutzen, sofern Sie alle Urheberrechtsvermerke und sonstigen Eigentumsvermerke beibehalten und unsere Website sowie die jeweiligen Urheber ordnungsgemäß als Quelle angeben. Sie dürfen den Inhalt dieser Website nicht verändern, kopieren, reproduzieren, erneut veröffentlichen, hochladen, veröffentlichen, übertragen oder verbreiten, es sei denn, es handelt sich um öffentliche Dokumente wie Verträge oder Übereinkommen.",
+                "photos": "Die Fotos stammen überwiegend von der Website Perla (https://www.perla.developpement-durable.gouv.fr/).",
+                "error": "Fehler",
+                "errortext": "Obwohl wir uns um Genauigkeit bemühen, übernehmen wir keine Gewähr für die Richtigkeit, Zuverlässigkeit, Verfügbarkeit oder Relevanz der auf dieser Website enthaltenen Informationen. Die Seiten werden „wie besehen“ ohne jegliche Gewährleistung bereitgestellt. Wir garantieren nicht, dass diese Website frei von Unterbrechungen oder Fehlern ist, dass Fehler behoben werden oder dass der Server frei von Viren oder schädlichen Komponenten ist. Änderungen oder Verbesserungen an der Website können jederzeit vorgenommen werden.",
+                "links": "Links",
+                "linkstext": "Wir übernehmen ebenfalls keine Gewähr für den Inhalt oder die Qualität der Informationen auf den Websites, zu denen wir Links bereitstellen. Diese Websites unterliegen nicht unserer Kontrolle, und wir sind weder für deren Inhalt noch für deren Aktualisierungen verantwortlich."
             }
         };
 
@@ -262,6 +331,8 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector("a[href='map']").innerHTML = `<i class="fa-solid fa-map"></i> ${translations[lang]["map"]}`;
         document.querySelector("a[href='downloads']").innerHTML = `<i class="fa-solid fa-floppy-disk"></i> ${translations[lang]["downloads"]}`;
         document.querySelector("a[href='contacts']").innerHTML = `<i class="fa-solid fa-address-book"></i> ${translations[lang]["contacts"]}`;
+        document.querySelector("a[href='mentions-legales']").innerHTML = `<i class="fa-solid fa-scale-balanced"></i> ${translations[lang]["mentions-legales"]}`;
+
         
         document.querySelectorAll("a[data-key]").forEach(link => {
             let key = link.getAttribute("data-key");

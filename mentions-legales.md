@@ -104,7 +104,12 @@ Loïc Trutin
 <p class="translatable" data-key="authortext">Ce site contient des liens vers des contenus protégés par le droit d’auteur, des marques déposées ou d’autres droits de propriété intellectuelle. En utilisant notre site, vous reconnaissez que les contenus et informations – y compris, mais sans s’y limiter, les textes, sons, photographies, vidéos, graphiques ou autres éléments – peuvent être protégés. Le contenu et/ou les liens disponibles sur ce site ne constituent en aucun cas des conseils juridiques, politiques ou autres. Vous êtes autorisé à utiliser le contenu de ce site, en tout ou partie, à des fins personnelles ou éducatives, mais pas à des fins commerciales, à condition de conserver toutes les mentions de droits d’auteur et autres avis de propriété, et de créditer correctement notre site et les auteurs respectifs. Vous ne pouvez pas modifier, copier, reproduire, republier, téléverser, publier, transmettre ou distribuer le contenu de ce site, sauf s’il s’agit de documents publics tels que des traités ou conventions.</p>
 </div>
 
-<p class="translatable" data-key="photos">Les photographies proviennent majoritairement du site web</p> [Perla](https://www.perla.developpement-durable.gouv.fr/).
+<p>
+  <span class="translatable" data-key="photos">
+    Les photographies proviennent majoritairement du site web
+  </span>
+  <a href="https://www.perla.developpement-durable.gouv.fr/">Perla</a>.
+</p>
 
 <h2 class="translatable" data-key="error">Erreurs</h2>
 <div style="text-align: justify;">

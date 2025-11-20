@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "r1": "Cet atlas a pour objectif de présenter plusieurs résultats issus des travaux menés sur les communautés de macroinvertébrés dans le cadre du projet Interreg RiverDiv. Il est disponible en format interactif et en format pdf, accompagné d’une galerie présentant les taxons de macroinvertébrés les plus couramment observés au sein de la Wieslauter.",
                 "q2": "Pourquoi les macroinvertébrés ?",
                 "r2": "Les macroinvertébrés aquatiques, en raison de leurs caractéristiques écologiques, sont d’excellents indicateurs de la qualité des milieux. Certains taxons, par leur polluo-sensibilité, permettent d’évaluer le niveau de pollution ou le degré de perturbation d’un cours d’eau. Des informations complémentaires sur les taxons observés sont disponibles dans l’onglet Galerie ainsi que dans l’atlas PDF.",
-                "q3": "Que sont les zones refuge ? A REVOIR !",
+                "q3": "Que sont les zones refuge ?",
                 "r3": "Les refuges aquatiques (ou refugia) peuvent être définis de manière générale comme des sites où le biote se retire, persiste et peut potentiellement se développer dans des conditions environnementales changeantes (Davis et al., 2013).",
                 "q6": "Les données brutes sont-elles accessibles ?",
                 "r6": "Les données brutes d’observation des taxons de macroinvertébrés aquatiques présents sur la Wieslauter ne sont pas disponibles directement sur le site ni sur le dépôt GitHub. Si vous souhaitez y accéder ou obtenir des informations complémentaires, merci de contacter un membre de l’équipe (voir onglet Equipe).",

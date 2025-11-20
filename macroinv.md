@@ -55,78 +55,312 @@ layout: default
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="acan">Acantocéphales</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="acan2">Les acantocéphales, aussi connus sous le nom de vers à tête épineuse, sont des parasites capables de s’accrocher à leurs hôtes. N’ayant pas de vie libre, ils parasitent les arthropodes à l’état juvénile puis contaminent les vertébrés à l’âge adulte. Ces derniers sont contaminés en mangeant les hôtes intermédiaires. C’est en modifiant le comportement des hôtes intermédiaires pour les forcer à se faire manger que les hôtes finaux seront contaminés.</p>
-            <img src="images/ACAN.jpg" alt="Logo 1" width="250" class="logo">
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Rhadinorhynchus sp.<em>
+                <img src="images/ACAN.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
         </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="ach">Achètes</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="ach2">De la classe des annélidés, les sangsues disposent de ventouses et sont hermaphrodites. Certaines espèces sont hématophages. Les achètes peuvent être considérés comme polluo-résistants notamment du fait de leur résistance à des conditions d’hypoxie. Cela fait souvent de ces derniers les seuls prédateurs là où la pollution organique est élevée.
 Prédatrices ou parasites, les achètes peuvent se disperser par le biais du courant.</p>
-            <img src="images/ACH.jpg" alt="Logo 1" width="250" class="logo">
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Batracobdella sp..<em>
+                <img src="images/ACH.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
         </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="amph">Amphipodes</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="amph2">Les amphipodes se caractérisent notamment par l’aplatissement latéral de leurs corps ainsi que par le fait qu’ils soient détritivores.
 Capables de coloniser tous les types d’habitats, ils sont souvent la proie de poissons et d’oiseaux. Le parasitage par des larves d’acantocéphales est également courant (forme une tache orangée). Enfin, les amphipodes sont tolérants face à la pollution.</p>
-            <img src="images/Gammarus.jpg" alt="Logo 1" width="250" class="logo">
             <p>
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <p style="font-style: italic;">Gammarus sp.</p>
+                <em>Gammarus sp.<em>
+                <img src="images/Gammarus.jpg" alt="Logo 1" width="250" class="logo">
             </p>
         </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="anne">Annélidés</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="anne2">Les annélides, ou vers, se composent d’une succession de segments. La plupart d’entre eux vivent essentiellement dans l’eau et s’avèrent être tolérant à la pollution. Cet embranchement englobe trois classes : les polychètes, les oligochètes et les achètes.</p>
-            <img src="images/ANNE.jpg" alt="Logo 1" width="250" class="logo">
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Erpobdella sp.<em>
+                <img src="images/ANNE.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
         </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="biva">Bivalves</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="biva2">Faisant partie de l’embranchement des mollusques, la classe des bivalves représente les individus de tout types et de toutes tailles possédant deux valves. Les bivalves d’eau douce sont des filtreurs (phytoplancton, bactéries, fins débris organiques) et sont également les hôtes de nombreux parasites. Les individus du genre Pisidium (famille des Sphaeriidae) et de la famille Unionacea ont une grande résistance à l’hypoxie. Ce type de résistance ne se retrouve pas dans d’autres familles ou genres.</p>
-            <img src="images/BIVA.jpg" alt="Logo 1" width="250" class="logo">
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Pisidium sp.<em>
+                <img src="images/BIVA.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
         </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="coleo">Coléoptères</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="coleo2">Les coléoptères sont polymorphes et de tailles variées. Chez les larves, le régime alimentaire est également varié (appareil buccal de type broyeur, herbivores stricts, détritivores, algivores, carnivores, etc.). Les adultes ont, quant à eux, tous un appareil buccal de type broyeur. Certains sont prédateurs mais la majorité sont détritivore ou algivore. Enfin, les coléoptères sont capables de coloniser tous les types de milieux aquatiques et leur tolérance à la pollution est moyenne.</p>
-            <img src="images/COLEO.jpg" alt="Logo 1" width="250" class="logo">
-            <img src="images/COLEO2.jpg" alt="Logo 1" width="250" class="logo">
+            <h3>Elmidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Elmis sp.<em>
+                <img src="images/COLEO.jpg" alt="Logo 1" width="250" class="logo">
+                <img src="images/COLEO2.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Dytiscidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Stictonectes sp.<em>
+                <img src="images/Stictonectes.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Hydraenidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Hydraena sp.<em>
+                <img src="images/Hydraena.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Scirtidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Helodes sp.<em>
+                <img src="images/Helodes.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
         </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="deca">Décapodes</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="deca2">Les décapodes se caractérisent par leur cinq paires de pattes. On y retrouve donc notamment des écrevisses ou des crabes. 
 La compétition est importante chez les écrevisses (espèces indigènes vs étrangères). De plus, certaines espèces sont fouisseurs et fragilisent les berges. Il est à noter que les décapodes sont moyennement résistants à la pollution.</p>
-            <img src="images/DECA.jpg" alt="Logo 1" width="250" class="logo">
+            <h3>Astacidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Pacifastacus sp.<em>
+                <img src="images/Pacifastacus.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Cambaridae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Orconectes limosus<em>
+                <img src="images/DECA.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
         </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="dipt">Diptères</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="dipt2">Les diptères sont répandus dans toutes les grandes régions du monde. De nombreuses espèces sont fouisseurs et les régimes alimentaires sont variés (broyeur, détritivore, racleur, etc.). Les larves de diptères se caractérisent notamment par l’absence de pattes thoraciques articulées. Les adultes, quant à eux, ont une paire d’ailes et un appareil buccal de type lécheur, piqueur ou les deux. Enfin, en ce qui concerne la tolérance à la pollution, les Chironomidae (famille la plus importante) sont tolérants mais les autres familles ne le sont que moyennement.</p>
-            <img src="images/DIPT.jpg" alt="Logo 1" width="250" class="logo">
-            <img src="images/DIPT2.jpg" alt="Logo 1" width="250" class="logo">
+            <h3>Anthomyidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Lispe sp.<em>
+                <img src="images/Lispe.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Ceratopogonidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Dasyhelea sp.<em>
+                <img src="images/Dasyhelea.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Chaoboridae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Mochlonyx sp.<em>
+                <img src="images/Mochlonyx.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Chironomidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Orthocladiinae lato sensu<em>
+                <img src="images/DIPT.jpg" alt="Logo 1" width="250" class="logo">
+                <img src="images/DIPT2.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Culicidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>sF. Culicinae<em>
+                <img src="images/Culicidae.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Dixidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Dixa sp.<em>
+                <img src="images/Dixa.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Empididae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Chelifera sp.<em>
+                <img src="images/Chelifera.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Limoniidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Hexatoma sp.<em>
+                <img src="images/Hexatoma.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Pediciidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Dicranota sp.<em>
+                <img src="images/Dicranota.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Ptychopteridae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Ptychoptera sp.<em>
+                <img src="images/Ptychoptera.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Rhagionidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Chrysopilus sp.<em>
+                <img src="images/Chrysopilus.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Simuliidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Simulium sp.<em>
+                <img src="images/Simulium.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Tabanidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>F. Tabanidae<em>
+                <img src="images/Tabanidae.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Tipulidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>F. Tipulidae<em>
+                <img src="images/Tipulidae.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
         </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="epheme">Ephéméroptères</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="epheme2">Les éphéméroptères forment un groupe présent dans le monde entier dont la distribution est très diversifiée (présence aussi bien en eau courante que stagnante). Cette diversité concerne aussi bien la relation avec le substrat (individus fouisseurs, rampants, nageurs, etc.) que l’alimentation (individus broyeurs, détritivores, filtreurs, prédateurs, etc.). La durée de vie des individus varie de 3 à 6 mois en général. Enfin, ce groupe fait partie des bioindicateurs d’eaux peu polluées utilisé en France pour le suivi de la qualité des milieux aquatiques.</p>
-            <img src="images/EPHEME.jpg" alt="Logo 1" width="250" class="logo">
+            <h3>Baetidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Baetis sp.<em>
+                <img src="images/Tipulidae.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Ephemerellidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Serratella ignita<em>
+                <img src="images/EPHEME.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Heptageniidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Heptagenia sulfurea<em>
+                <img src="images/Heptagenia sulfurea.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
         </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="gast">Gastéropodes</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="gast2">Groupe rassemblant les mollusques asymétriques, les gastéropodes sont des individus herbivores et détritivores dont la durée de vie s’élève entre 9 et 15 mois. Les gastéropodes sont souvent la proie de poissons et d’oiseaux ainsi que de certains macroinvertébrés. Leur dispersion se fait par le biais des oiseaux, crues et canaux. Enfin, les individus de ce groupe ont une préférence pour les eaux à pH plus basique qu’acide.</p>
-            <img src="images/GAST.jpg" alt="Logo 1" width="250" class="logo">
+            <h3>Planorbidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Gyraulus sp.<em>
+                <img src="images/GAST.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Lymnaeidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Radix sp.<em>
+                <img src="images/Radix.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
         </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="hetero">Hétéroptères</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="hetero2">Les hétéroptères sont un sous-ordre des hémiptères. Ces derniers se caractérisent par la transformation de l’appareil buccal en rostre. Leur régime alimentaire est, par conséquent, liquide (seuls certains genres ont une modification permettant l’absorption de particules). La majorité des hétéroptères s’avère être des prédateurs bien que certains genres soient détritivores. Enfin, les hétéroptères sont moyennement tolérant à la pollution.</p>
-            <img src="images/HETERO.jpg" alt="Logo 1" width="250" class="logo">
+            <h3>Veliidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Microvelia sp.<em>
+                <img src="images/Veliidae.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Corixidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Micronecta sp.<em>
+                <img src="images/HETERO.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
         </div>
     </div>
     <div class="faq-item">
@@ -138,32 +372,87 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="iso">Isopodes</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="iso2">Caractérisés par un aplatissement dorso-ventral, les isopodes forment un groupe d’individus variés qui peuvent être herbivores, détritivores, carnivores ou encore parasites. Les isopodes sont la proie des poissons, des sangsues, des oiseaux ou encore des planaires. Par ailleurs, les isopodes ont une préférence pour les milieux lentiques et sont peu aptes à coloniser de nouveaux milieux bien qu’ils soient souvent entraînés en dérive par le courant. Enfin, les isopodes sont tolérants face à la pollution.</p>
-            <img src="images/ISO.jpg" alt="Logo 1" width="250" class="logo">
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Asellus sp.<em>
+                <img src="images/ISO.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
         </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="nema">Némathelminthes</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="nema2">Les némathelminthes d’eau douce se divisent en 2 classes : les nématodes et les gordiacés. Les nématodes sont très abondants en eau douce mais la plupart sont microscopiques. Ils sont allongés et blancs. Les gordiacés sont, quant à eux, des parasites larvaires qui deviennent libres à l’âge adulte. Ils sont très allongés et bruns. La tolérance à la pollution des némathelminthes est moyenne.</p>
-            <img src="images/NEMA.jpg" alt="Logo 1" width="250" class="logo">
-            <img src="images/NEMATO.jpg" alt="Logo 1" width="250" class="logo">
+            <h3>Gordiacea</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Gordiacea<em>
+                <img src="images/NEMA.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Nematoda</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Nematoda<em>
+                <img src="images/NEMATO.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
         </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="odo">Odonates</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="odo2">Les odonates se rassemblent en 2 sous-ordre principaux : les zygoptères (qui ont des ailes de longueurs similaires)  et les anisoptères (qui ont des ailes de longueurs différentes). Les larves d’odonates sont exclusivement prédatrices. Les adultes, quant à eux, sont des prédateurs diurnes d’insectes ailés. La durée de vie est de quelques semaines pour l’adulte et de quelques années pour la larve. Les odonates sont surtout trouvés en milieux stagnants bien que certains genres puissent être trouvés en cours d’eau. Enfin, leur tolérance à la pollution est moyenne.</p>
-            <img src="images/ODO.jpg" alt="Logo 1" width="250" class="logo">
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Cordulegaster sp.<em>
+                <img src="images/ODO.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
         </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="oligo">Oligochètes</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="oligo2">Les oligochètes sont des vers aussi bien terrestres qu’aquatiques dont le corps segmenté est couvert de soies permettant la reptation. On les retrouve dans tous les types de milieux. Ces derniers sont qualifiés de polluo-résistants.</p>
-            <img src="images/OLIGO.jpg" alt="Logo 1" width="250" class="logo">
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Oligochaeta<em>
+                <img src="images/OLIGO.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
         </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="pleco">Plécoptères</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="pleco2">Les plécoptères sont des invertébrés dont la diversité est plus élevée dans les cours d’eau supérieur. Ils sont également plus abondants dans les eaux courantes. La dispersion se fait par dérive pour les larves et par le biais des femelles adultes qui vivent plus longtemps. Les individus peuvent être des broyeurs, des racleurs ou des prédateurs selon le genre. Ils sont la proie de poissons, d’oiseaux et d’autres macroinvertébrés. Les larves des plécoptères sont utilisés comme bioindicateur du fait de leur grande sensibilité aux taux en oxygène dissous dans l’eau. Dans la globalité, ils sont sensibles à la pollution.</p>
-            <img src="images/PLECO.jpg" alt="Logo 1" width="250" class="logo">
+            <h3>Leuctridae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Leuctra sp.<em>
+                <img src="images/Leuctra.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Nemouridae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Protonemura sp.<em>
+                <img src="images/PLECO.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Perlodidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Isoperla sp.<em>
+                <img src="images/Isoperla.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
         </div>
     </div>
     <div class="faq-item">
@@ -172,6 +461,110 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
 Les adultes sont souvent la proie des oiseaux et des chiroptères. Enfin, les trichoptères sont en général sensibles à la pollution.</p>
             <img src="images/TRICHOtinodes.jpg" alt="Logo 1" width="250" class="logo">
             <img src="images/hydropsyche.jpg" alt="Logo 1" width="250" class="logo">
+            <h3>Beraeidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Beraea sp.<em>
+                <img src="images/Beraea.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Brachycentridae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Micrasema longulum<em>
+                <img src="images/Micrasema longulum.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Ecnomidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Ecnomus sp.<em>
+                <img src="images/Ecnomus.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Glossosomatidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Agapetus sp.<em>
+                <img src="images/Agapetus.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Goeridae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Silo pallipes sp.<em>
+                <img src="images/Silo pallipes.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Hydropsychidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Hydropsyche sp.<em>
+                <img src="images/Hydropsyche.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Leptoceridae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Athripsodes sp.<em>
+                <img src="images/Athripsodes.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Limnephilidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Stenophylacini & Chaetopterygini<em>
+                <img src="images/Steno-Chae.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Odontoceridae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Odontocerum sp.<em>
+                <img src="images/Odontocerum.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Polycentropodidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Polycentropus sp.<em>
+                <img src="images/Polycentropus.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Psychomyiidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Tinodes sp.<em>
+                <img src="images/Tinodes.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Rhyacophilidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Rhyacophila sp.<em>
+                <img src="images/Rhyacophila.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
+            <h3>Sericostomatidae</h3>
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <em>Sericostoma sp.<em>
+                <img src="images/Sericostoma.jpg" alt="Logo 1" width="250" class="logo">
+            </p>
         </div>
     </div>  
 </section>

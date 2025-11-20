@@ -70,6 +70,12 @@ Prédatrices ou parasites, les achètes peuvent se disperser par le biais du cou
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="amph2">Les amphipodes se caractérisent notamment par l’aplatissement latéral de leurs corps ainsi que par le fait qu’ils soient détritivores.
 Capables de coloniser tous les types d’habitats, ils sont souvent la proie de poissons et d’oiseaux. Le parasitage par des larves d’acantocéphales est également courant (forme une tache orangée). Enfin, les amphipodes sont tolérants face à la pollution.</p>
             <img src="images/Gammarus.jpg" alt="Logo 1" width="250" class="logo">
+            <p>
+                <span class="translatable" data-key="extax">
+                    Exemple de taxon trouvé sur la Wieslauter :
+                </span>
+                <p style="font-style: italic;">Gammarus sp.</p>
+            </p>
         </div>
     </div>
     <div class="faq-item">

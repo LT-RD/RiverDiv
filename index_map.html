@@ -111,7 +111,7 @@
         <script>
         var map = L.map('map', {
             zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[48.92193748588947,7.570460241046513],[49.285593649453425,8.408256414091511]]);
+        }).fitBounds([[48.9217361326519,7.554077709153118],[49.285677021539215,8.424528751166282]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -4575,9 +4575,6 @@
                         <td>' + (feature.properties['CAMPAIGN'] !== null ? autolinker.link(String(feature.properties['CAMPAIGN']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td class="visible-with-data" id="TAXA" colspan="2"><strong>TAXA</strong><br />' + (feature.properties['TAXA'] !== null ? autolinker.link(String(feature.properties['TAXA']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <th scope="row">OCCURRENCE</th>\
                         <td>' + (feature.properties['OCCURRENCE'] !== null ? autolinker.link(String(feature.properties['OCCURRENCE']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
@@ -5360,9 +5357,6 @@
                     <tr>\
                         <th scope="row">CAMPAIGN</th>\
                         <td>' + (feature.properties['CAMPAIGN'] !== null ? autolinker.link(String(feature.properties['CAMPAIGN']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td class="visible-with-data" id="TAXA" colspan="2"><strong>TAXA</strong><br />' + (feature.properties['TAXA'] !== null ? autolinker.link(String(feature.properties['TAXA']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">OCCURRENCE</th>\
@@ -6245,6 +6239,10 @@
                         <th scope="row">CAMPAIGN</th>\
                         <td>' + (feature.properties['CAMPAIGN'] !== null ? autolinker.link(String(feature.properties['CAMPAIGN']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
+                    <tr>\
+                        <th scope="row">OCCURRENCE</th>\
+                        <td>' + (feature.properties['OCCURRENCE'] !== null ? autolinker.link(String(feature.properties['OCCURRENCE']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
 			layer.on('popupopen', function(e) {
@@ -6918,7 +6916,6 @@
         });
         bounds_group.addLayer(layer_ACAN_72);
         map.addLayer(layer_ACAN_72);
-
 var overlaysTree = [
         {label: '<b>Spring 2024</b>',  selectAllCheckbox: true, children: [
             {label: 'Acantocephala<br />', layer: layer_ACAN_72},
@@ -6948,8 +6945,8 @@ var overlaysTree = [
             {label: 'Anthomyidae<br />', layer: layer_ANTH_48},
             {label: 'Ceratopogonidae<br />', layer: layer_CERA_47},
             {label: 'Chaoboridae<br />', layer: layer_CHAO_46},
-            {label: 'Culicidae<br />', layer: layer_CULI_45},
             {label: 'Chironomidae<br />', layer: layer_CHIRO_44},
+	    {label: 'Culicidae<br />', layer: layer_CULI_45},
             {label: 'Dixidae<br />', layer: layer_DIXI_43},
             {label: 'Empididae<br />', layer: layer_EMPI_42},
             {label: 'Limoniidae<br />', layer: layer_LIMO_41},

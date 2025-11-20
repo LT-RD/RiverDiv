@@ -75,7 +75,7 @@ lang: fr
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r2">Les macroinvertébrés aquatiques, en raison de leurs caractéristiques écologiques, sont d’excellents indicateurs de la qualité des milieux. Certains taxons, par leur polluo-sensibilité, permettent d’évaluer le niveau de pollution ou le degré de perturbation d’un cours d’eau. Des informations complémentaires sur les taxons observés sont disponibles dans l’onglet Galerie ainsi que dans l’atlas PDF.</p></div>
     </div>
     <div class="faq-item">
-        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="q3">Que sont les zones refuge ? A REVOIR !</p></div>
+        <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="q3">Que sont les zones refuge ?</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="r3">Les zones refuge sont des espaces ausin desquels les individus vont pouvoir se protéger d'un danger (événement extrême, prédateur, etc.), se reposer, se nourri ou encore se reproduire.</p></div>
     </div>
     <div class="faq-item">

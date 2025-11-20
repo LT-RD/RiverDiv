@@ -303,7 +303,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
                 <em>Baetis sp.</em><br>
-                <img src="images/Tipulidae.jpg" alt="Logo 1" width="250" class="logo">
+                <img src="images/Baetis.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Ephemerellidae</h3>
             <p>
@@ -461,8 +461,6 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="tricho">Trichoptères</p></div>
         <div class="faq-answer" style="text-align: justify;"><p class="translatable" data-key="tricho2">Les trichoptères forment un groupe dont les larves et les nymphes sont aquatiques. De nombreuses larves sont dites “à étui” car elles construisent des fourreaux divers pour se protéger. Certaines larves peuvent, quant à elle, être libres et errantes ou fixes. Les trichoptères peuvent être des filtreurs, des racleurs ou des prédateurs.
 Les adultes sont souvent la proie des oiseaux et des chiroptères. Enfin, les trichoptères sont en général sensibles à la pollution.</p>
-            <img src="images/TRICHOtinodes.jpg" alt="Logo 1" width="250" class="logo">
-            <img src="images/hydropsyche.jpg" alt="Logo 1" width="250" class="logo">
             <h3>Beraeidae</h3>
             <p>
                 <span class="translatable" data-key="extax">

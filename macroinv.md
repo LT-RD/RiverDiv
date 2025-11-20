@@ -61,7 +61,7 @@ layout: default
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Rhadinorhynchus sp.</em>
+                <em>Rhadinorhynchus sp.</em><br>
             </p>
                 <img src="images/ACAN.jpg" alt="Logo 1" width="250" class="logo">
         </div>
@@ -74,7 +74,7 @@ Prédatrices ou parasites, les achètes peuvent se disperser par le biais du cou
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Batracobdella sp..</em>
+                <em>Batracobdella sp..</em><br>
             </p>
                 <img src="images/ACH.jpg" alt="Logo 1" width="250" class="logo">
         </div>
@@ -87,7 +87,7 @@ Capables de coloniser tous les types d’habitats, ils sont souvent la proie de 
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Gammarus sp.</em>
+                <em>Gammarus sp.</em><br>
                 <img src="images/Gammarus.jpg" alt="Logo 1" width="250" class="logo">
             </p>
         </div>
@@ -99,7 +99,7 @@ Capables de coloniser tous les types d’habitats, ils sont souvent la proie de 
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Erpobdella sp.</em>
+                <em>Erpobdella sp.</em><br>
                 <img src="images/ANNE.jpg" alt="Logo 1" width="250" class="logo">
             </p>
         </div>
@@ -111,7 +111,7 @@ Capables de coloniser tous les types d’habitats, ils sont souvent la proie de 
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Pisidium sp.</em>
+                <em>Pisidium sp.</em><br>
                 <img src="images/BIVA.jpg" alt="Logo 1" width="250" class="logo">
             </p>
         </div>
@@ -124,7 +124,7 @@ Capables de coloniser tous les types d’habitats, ils sont souvent la proie de 
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Elmis sp.</em>
+                <em>Elmis sp.</em><br>
                 <img src="images/COLEO.jpg" alt="Logo 1" width="250" class="logo">
                 <img src="images/COLEO2.jpg" alt="Logo 1" width="250" class="logo">
             </p>
@@ -133,7 +133,7 @@ Capables de coloniser tous les types d’habitats, ils sont souvent la proie de 
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Stictonectes sp.</em>
+                <em>Stictonectes sp.</em><br>
                 <img src="images/Stictonectes.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Hydraenidae</h3>
@@ -141,7 +141,7 @@ Capables de coloniser tous les types d’habitats, ils sont souvent la proie de 
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Hydraena sp.</em>
+                <em>Hydraena sp.</em><br>
                 <img src="images/Hydraena.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Scirtidae</h3>
@@ -149,7 +149,7 @@ Capables de coloniser tous les types d’habitats, ils sont souvent la proie de 
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Helodes sp.</em>
+                <em>Helodes sp.</em><br>
                 <img src="images/Helodes.jpg" alt="Logo 1" width="250" class="logo">
             </p>
         </div>
@@ -163,7 +163,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Pacifastacus sp.</em>
+                <em>Pacifastacus sp.</em><br>
                 <img src="images/Pacifastacus.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Cambaridae</h3>
@@ -171,7 +171,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Orconectes limosus</em>
+                <em>Orconectes limosus</em><br>
                 <img src="images/DECA.jpg" alt="Logo 1" width="250" class="logo">
             </p>
         </div>
@@ -184,7 +184,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Lispe sp.</em>
+                <em>Lispe sp.</em><br>
                 <img src="images/Lispe.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Ceratopogonidae</h3>
@@ -192,7 +192,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Dasyhelea sp.</em>
+                <em>Dasyhelea sp.</em><br>
                 <img src="images/Dasyhelea.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Chaoboridae</h3>
@@ -200,7 +200,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Mochlonyx sp.</em>
+                <em>Mochlonyx sp.</em><br>
                 <img src="images/Mochlonyx.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Chironomidae</h3>
@@ -208,7 +208,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Orthocladiinae lato sensu</em>
+                <em>Orthocladiinae lato sensu</em><br>
                 <img src="images/DIPT.jpg" alt="Logo 1" width="250" class="logo">
                 <img src="images/DIPT2.jpg" alt="Logo 1" width="250" class="logo">
             </p>
@@ -217,7 +217,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>sF. Culicinae</em>
+                <em>sF. Culicinae</em><br>
                 <img src="images/Culicidae.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Dixidae</h3>
@@ -225,7 +225,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Dixa sp.</em>
+                <em>Dixa sp.</em><br>
                 <img src="images/Dixa.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Empididae</h3>
@@ -233,7 +233,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Chelifera sp.</em>
+                <em>Chelifera sp.</em><br>
                 <img src="images/Chelifera.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Limoniidae</h3>
@@ -241,7 +241,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Hexatoma sp.</em>
+                <em>Hexatoma sp.</em><br>
                 <img src="images/Hexatoma.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Pediciidae</h3>
@@ -249,7 +249,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Dicranota sp.</em>
+                <em>Dicranota sp.</em><br>
                 <img src="images/Dicranota.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Ptychopteridae</h3>
@@ -257,7 +257,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Ptychoptera sp.</em>
+                <em>Ptychoptera sp.</em><br>
                 <img src="images/Ptychoptera.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Rhagionidae</h3>
@@ -265,7 +265,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Chrysopilus sp.</em>
+                <em>Chrysopilus sp.</em><br>
                 <img src="images/Chrysopilus.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Simuliidae</h3>
@@ -273,7 +273,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Simulium sp.</em>
+                <em>Simulium sp.</em><br>
                 <img src="images/Simulium.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Tabanidae</h3>
@@ -281,7 +281,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>F. Tabanidae</em>
+                <em>F. Tabanidae</em><br>
                 <img src="images/Tabanidae.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Tipulidae</h3>
@@ -289,7 +289,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>F. Tipulidae</em>
+                <em>F. Tipulidae</em><br>
                 <img src="images/Tipulidae.jpg" alt="Logo 1" width="250" class="logo">
             </p>
         </div>
@@ -302,7 +302,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Baetis sp.</em>
+                <em>Baetis sp.</em><br>
                 <img src="images/Tipulidae.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Ephemerellidae</h3>
@@ -310,7 +310,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Serratella ignita</em>
+                <em>Serratella ignita</em><br>
                 <img src="images/EPHEME.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Heptageniidae</h3>
@@ -318,7 +318,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Heptagenia sulfurea</em>
+                <em>Heptagenia sulfurea</em><br>
                 <img src="images/Heptagenia sulfurea.jpg" alt="Logo 1" width="250" class="logo">
             </p>
         </div>
@@ -331,7 +331,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Gyraulus sp.</em>
+                <em>Gyraulus sp.</em><br>
                 <img src="images/GAST.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Lymnaeidae</h3>
@@ -339,7 +339,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Radix sp.</em>
+                <em>Radix sp.</em><br>
                 <img src="images/Radix.jpg" alt="Logo 1" width="250" class="logo">
             </p>
         </div>
@@ -352,7 +352,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Microvelia sp.</em>
+                <em>Microvelia sp.</em><br>
                 <img src="images/Veliidae.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Corixidae</h3>
@@ -360,7 +360,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Micronecta sp.</em>
+                <em>Micronecta sp.</em><br>
                 <img src="images/HETERO.jpg" alt="Logo 1" width="250" class="logo">
             </p>
         </div>
@@ -378,7 +378,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Asellus sp.</em>
+                <em>Asellus sp.</em><br>
                 <img src="images/ISO.jpg" alt="Logo 1" width="250" class="logo">
             </p>
         </div>
@@ -391,7 +391,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Gordiacea</em>
+                <em>Gordiacea</em><br>
                 <img src="images/NEMA.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Nematoda</h3>
@@ -399,7 +399,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Nematoda</em>
+                <em>Nematoda</em><br>
                 <img src="images/NEMATO.jpg" alt="Logo 1" width="250" class="logo">
             </p>
         </div>
@@ -411,7 +411,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Cordulegaster sp.</em>
+                <em>Cordulegaster sp.</em><br>
                 <img src="images/ODO.jpg" alt="Logo 1" width="250" class="logo">
             </p>
         </div>
@@ -423,7 +423,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Oligochaeta</em>
+                <em>Oligochaeta</em><br>
                 <img src="images/OLIGO.jpg" alt="Logo 1" width="250" class="logo">
             </p>
         </div>
@@ -436,7 +436,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Leuctra sp.</em>
+                <em>Leuctra sp.</em><br>
                 <img src="images/Leuctra.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Nemouridae</h3>
@@ -444,7 +444,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Protonemura sp.</em>
+                <em>Protonemura sp.</em><br>
                 <img src="images/PLECO.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Perlodidae</h3>
@@ -452,7 +452,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Isoperla sp.</em>
+                <em>Isoperla sp.</em><br>
                 <img src="images/Isoperla.jpg" alt="Logo 1" width="250" class="logo">
             </p>
         </div>
@@ -468,7 +468,7 @@ Les adultes sont souvent la proie des oiseaux et des chiroptères. Enfin, les tr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Beraea sp.</em>
+                <em>Beraea sp.</em><br>
                 <img src="images/Beraea.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Brachycentridae</h3>
@@ -476,7 +476,7 @@ Les adultes sont souvent la proie des oiseaux et des chiroptères. Enfin, les tr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Micrasema longulum</em>
+                <em>Micrasema longulum</em><br>
                 <img src="images/Micrasema longulum.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Ecnomidae</h3>
@@ -484,7 +484,7 @@ Les adultes sont souvent la proie des oiseaux et des chiroptères. Enfin, les tr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Ecnomus sp.</em>
+                <em>Ecnomus sp.</em><br>
                 <img src="images/Ecnomus.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Glossosomatidae</h3>
@@ -492,7 +492,7 @@ Les adultes sont souvent la proie des oiseaux et des chiroptères. Enfin, les tr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Agapetus sp.</em>
+                <em>Agapetus sp.</em><br>
                 <img src="images/Agapetus.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Goeridae</h3>
@@ -500,7 +500,7 @@ Les adultes sont souvent la proie des oiseaux et des chiroptères. Enfin, les tr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Silo pallipes sp.</em>
+                <em>Silo pallipes sp.</em><br>
                 <img src="images/Silo pallipes.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Hydropsychidae</h3>
@@ -508,7 +508,7 @@ Les adultes sont souvent la proie des oiseaux et des chiroptères. Enfin, les tr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Hydropsyche sp.</em>
+                <em>Hydropsyche sp.</em><br>
                 <img src="images/Hydropsyche.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Leptoceridae</h3>
@@ -516,7 +516,7 @@ Les adultes sont souvent la proie des oiseaux et des chiroptères. Enfin, les tr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Athripsodes sp.</em>
+                <em>Athripsodes sp.</em><br>
                 <img src="images/Athripsodes.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Limnephilidae</h3>
@@ -524,7 +524,7 @@ Les adultes sont souvent la proie des oiseaux et des chiroptères. Enfin, les tr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Stenophylacini & Chaetopterygini</em>
+                <em>Stenophylacini & Chaetopterygini</em><br>
                 <img src="images/Steno-Chae.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Odontoceridae</h3>
@@ -532,7 +532,7 @@ Les adultes sont souvent la proie des oiseaux et des chiroptères. Enfin, les tr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Odontocerum sp.</em>
+                <em>Odontocerum sp.</em><br>
                 <img src="images/Odontocerum.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Polycentropodidae</h3>
@@ -540,7 +540,7 @@ Les adultes sont souvent la proie des oiseaux et des chiroptères. Enfin, les tr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Polycentropus sp.</em>
+                <em>Polycentropus sp.</em><br>
                 <img src="images/Polycentropus.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Psychomyiidae</h3>
@@ -548,7 +548,7 @@ Les adultes sont souvent la proie des oiseaux et des chiroptères. Enfin, les tr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Tinodes sp.</em>
+                <em>Tinodes sp.</em><br>
                 <img src="images/Tinodes.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Rhyacophilidae</h3>
@@ -556,7 +556,7 @@ Les adultes sont souvent la proie des oiseaux et des chiroptères. Enfin, les tr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Rhyacophila sp.</em>
+                <em>Rhyacophila sp.</em><br>
                 <img src="images/Rhyacophila.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Sericostomatidae</h3>
@@ -564,7 +564,7 @@ Les adultes sont souvent la proie des oiseaux et des chiroptères. Enfin, les tr
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Sericostoma sp.</em>
+                <em>Sericostoma sp.</em><br>
                 <img src="images/Sericostoma.jpg" alt="Logo 1" width="250" class="logo">
             </p>
         </div>

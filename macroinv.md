@@ -353,7 +353,7 @@ La compétition est importante chez les écrevisses (espèces indigènes vs étr
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
                 <em>Microvelia sp.</em><br>
-                <img src="images/Veliidae.jpg" alt="Logo 1" width="250" class="logo">
+                <img src="images/Microvelia.jpg" alt="Logo 1" width="250" class="logo">
             </p>
             <h3>Corixidae</h3>
             <p>

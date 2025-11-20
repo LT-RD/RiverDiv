@@ -62,8 +62,9 @@ layout: default
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
                 <em>Rhadinorhynchus sp.<em>
-                <img src="images/ACAN.jpg" alt="Logo 1" width="250" class="logo">
             </p>
+                <img src="images/ACAN.jpg" alt="Logo 1" width="250" class="logo">
+        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="ach">Achètes</p></div>
@@ -74,8 +75,8 @@ Prédatrices ou parasites, les achètes peuvent se disperser par le biais du cou
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
                 <em>Batracobdella sp..<em>
-                <img src="images/ACH.jpg" alt="Logo 1" width="250" class="logo">
             </p>
+                <img src="images/ACH.jpg" alt="Logo 1" width="250" class="logo">
         </div>
     </div>
     <div class="faq-item">

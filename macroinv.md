@@ -49,7 +49,9 @@ layout: default
 
 <h1 class="translatable" data-key="macroinv2">Galerie des macroinvertébrés de la Wieslauter</h1>
 
+<div style="text-align: justify;">
 <p class="translatable" data-key="text2">Explorez ici les macroinvertébrés recensés dans l’atlas de la Wieslauter. De courtes descriptions accompagnées de quelques photographies vous permettront d’en apprendre davantage à leur sujet.</p>
+</div>
 
 <section id="faq">
     <div class="faq-item">
@@ -62,7 +64,6 @@ layout: default
                 <em>Rhadinorhynchus sp.<em>
                 <img src="images/ACAN.jpg" alt="Logo 1" width="250" class="logo">
             </p>
-        </div>
     </div>
     <div class="faq-item">
         <div class="faq-question"><i class="fa-solid fa-chevron-right"></i><p class="translatable" data-key="ach">Achètes</p></div>

@@ -61,7 +61,7 @@ layout: default
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Rhadinorhynchus sp.<em>
+                <em>Rhadinorhynchus sp.</em>
             </p>
                 <img src="images/ACAN.jpg" alt="Logo 1" width="250" class="logo">
         </div>
@@ -74,7 +74,7 @@ Prédatrices ou parasites, les achètes peuvent se disperser par le biais du cou
                 <span class="translatable" data-key="extax">
                     Exemple de taxon trouvé sur la Wieslauter :
                 </span>
-                <em>Batracobdella sp..<em>
+                <em>Batracobdella sp..</em>
             </p>
                 <img src="images/ACH.jpg" alt="Logo 1" width="250" class="logo">
         </div>

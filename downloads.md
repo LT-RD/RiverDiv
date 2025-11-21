@@ -51,4 +51,5 @@ layout: default
 
 <p class="translatable" data-key="textpdf">Ici, vous pouvez télécharger une version PDF de l'atlas :</p>
 
-<a href="Atlas-RiverDiv.pdf" class="translatable" data-key="linkpdf"><i class="fa-solid fa-floppy-disk"></i> Télécharger l'atlas en PDF</a>
+<a href="Atlas-RIVERDIV-FR.pdf" class="translatable" data-key="linkpdf"><i class="fa-solid fa-floppy-disk"></i> Télécharger l'atlas PDF en français</a>
+<a href="Atlas-RIVERDIV-DE.pdf" class="translatable" data-key="linkpdf2"><i class="fa-solid fa-floppy-disk"></i> Télécharger l'atlas PDF en allemand</a>
